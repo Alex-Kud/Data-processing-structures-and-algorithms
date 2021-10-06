@@ -1,0 +1,6 @@
+C:\Users\DenianOne\source\repos\SecondTry\SecondTry\Debug\SecondTry.vcxproj.AssemblyReference.cache
+C:\Users\DenianOne\source\repos\SecondTry\SecondTry\Debug\SecondTry.MyForm.resources
+C:\Users\DenianOne\source\repos\SecondTry\SecondTry\Debug\SecondTry.vcxproj.GenerateResource.cache
+C:\Users\sasha\OneDrive\Рабочий стол\SecondTry\SecondTry\Debug\SecondTry.vcxproj.AssemblyReference.cache
+C:\Users\sasha\OneDrive\Рабочий стол\SecondTry\SecondTry\Debug\SecondTry.MyForm.resources
+C:\Users\sasha\OneDrive\Рабочий стол\SecondTry\SecondTry\Debug\SecondTry.vcxproj.GenerateResource.cache
