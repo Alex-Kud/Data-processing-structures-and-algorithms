@@ -1,0 +1,3 @@
+C:\Users\sasha\source\repos\Project2\Project2\Debug\Project2.MyForm1.resources
+C:\Users\sasha\source\repos\Project2\Project2\Debug\Project2.vcxproj.GenerateResource.cache
+C:\Users\sasha\source\repos\Project2\Project2\Debug\Project2.vcxproj.AssemblyReference.cache
