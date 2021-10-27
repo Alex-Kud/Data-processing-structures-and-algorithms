@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MyForm1.cpp">
+    <ClCompile Include="MyForm.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MyForm1.h">
+    <ClInclude Include="MyForm.h">
       <Filter>Файлы ресурсов</Filter>
     </ClInclude>
   </ItemGroup>
