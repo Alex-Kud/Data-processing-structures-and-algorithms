@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\sasha\Downloads\Laboratory_work_3\Laboratory_work_3\Laboratory_work_3\</FILEPATH>
+      <FILENAME>MyForm.h</FILENAME>
+      <LINE>593</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Функция использует "120140" байт в стеке:  это превышает значение /analyze:stacksize"16384". Попробуйте переместить некоторые данные в кучу.</DESCRIPTION>
+    <FUNCTION>Laboratorywork3::MyForm::button2_Click</FUNCTION>
+    <DECORATED>?button2_Click@MyForm@Laboratorywork3@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z</DECORATED>
+    <FUNCLINE>593</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\sasha\Downloads\Laboratory_work_3\Laboratory_work_3\Laboratory_work_3\</FILEPATH>
+      <FILENAME>MyForm.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Несогласованная аннотация для "WinMain": данный экземпляр содержит нет аннотаций. См. c:\program files (x86)\windows kits\10\include\10.0.18362.0\um\winbase.h(933). </DESCRIPTION>
+    <FUNCTION>WinMain</FUNCTION>
+    <DECORATED>?WinMain@@$$J216YGHPAUHINSTANCE__@@0PADH@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

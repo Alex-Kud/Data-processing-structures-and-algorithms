@@ -1,0 +1,9 @@
+C:\Users\sasha\source\repos\Laboratory_work_3\Laboratory_work_3\Debug\Laboratory_work_3.vcxproj.AssemblyReference.cache
+C:\Users\sasha\source\repos\Laboratory_work_3\Laboratory_work_3\Debug\Laboratorywork3.MyForm.resources
+C:\Users\sasha\source\repos\Laboratory_work_3\Laboratory_work_3\Debug\Laboratory_work_3.vcxproj.GenerateResource.cache
+C:\Users\DenianOne\Desktop\Laboratory_work_3\Laboratory_work_3\Laboratory_work_3\Debug\Laboratory_work_3.vcxproj.AssemblyReference.cache
+C:\Users\DenianOne\Desktop\Laboratory_work_3\Laboratory_work_3\Laboratory_work_3\Debug\Laboratorywork3.MyForm.resources
+C:\Users\DenianOne\Desktop\Laboratory_work_3\Laboratory_work_3\Laboratory_work_3\Debug\Laboratory_work_3.vcxproj.GenerateResource.cache
+C:\Users\sasha\Downloads\Laboratory_work_3\Laboratory_work_3\Laboratory_work_3\Debug\Laboratory_work_3.vcxproj.AssemblyReference.cache
+C:\Users\sasha\Downloads\Laboratory_work_3\Laboratory_work_3\Laboratory_work_3\Debug\Laboratorywork3.MyForm.resources
+C:\Users\sasha\Downloads\Laboratory_work_3\Laboratory_work_3\Laboratory_work_3\Debug\Laboratory_work_3.vcxproj.GenerateResource.cache

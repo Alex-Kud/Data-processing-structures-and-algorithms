@@ -1,0 +1,6 @@
+﻿  MyForm.cpp
+C:\Users\sasha\Downloads\Laboratory_work_3\Laboratory_work_3\Laboratory_work_3\MyForm.h(545,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\sasha\Downloads\Laboratory_work_3\Laboratory_work_3\Laboratory_work_3\MyForm.h(559,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\sasha\Downloads\Laboratory_work_3\Laboratory_work_3\Laboratory_work_3\MyForm.h(599,22): warning C4018: <: несоответствие типов со знаком и без знака
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Laboratory_work_3.vcxproj -> C:\Users\sasha\Downloads\Laboratory_work_3\Laboratory_work_3\Debug\Laboratory_work_3.exe
