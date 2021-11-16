@@ -1,0 +1,6 @@
+﻿  MyForm.cpp
+C:\Users\sasha\source\repos\Laboratory_work_4\Laboratory_work_4\Tree.h(20,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\sasha\source\repos\Laboratory_work_4\Laboratory_work_4\Tree.h(40,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\sasha\source\repos\Laboratory_work_4\Laboratory_work_4\Tree.h(50): warning C4715: Tree::search: значение возвращается не при всех путях выполнения
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Laboratory_work_4.vcxproj -> C:\Users\sasha\source\repos\Laboratory_work_4\Debug\Laboratory_work_4.exe
