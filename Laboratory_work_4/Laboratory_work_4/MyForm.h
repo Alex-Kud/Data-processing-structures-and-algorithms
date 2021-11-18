@@ -86,7 +86,7 @@ namespace Laboratorywork4 {
 		this->groupBox1->Size = System::Drawing::Size(402, 236);
 		this->groupBox1->TabIndex = 3;
 		this->groupBox1->TabStop = false;
-		this->groupBox1->Text = L"Работа";
+		this->groupBox1->Text = L"Цифровой поиск";
 		// 
 		// button2
 		// 
@@ -127,7 +127,7 @@ namespace Laboratorywork4 {
 			static_cast<System::Byte>(204)));
 		this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 		this->Name = L"MyForm";
-		this->Text = L"MyForm";
+		this->Text = L"Лабораторная работа 4";
 		this->groupBox1->ResumeLayout(false);
 		this->groupBox1->PerformLayout();
 		this->ResumeLayout(false);
@@ -136,9 +136,13 @@ namespace Laboratorywork4 {
 	}
 
 	Void button1_Click(Object^ sender, EventArgs^ e) {
-		textBox1->Text += textBox2->Text + System::Environment::NewLine;
 		string str = msclr::interop::marshal_as<std::string>(textBox2->Text);
-		tree->add(str);
+		if (tree->search(str))
+			textBox3->Text = "Дублирование слова!";
+		else {
+			textBox1->Text += textBox2->Text + System::Environment::NewLine;
+			tree->add(str);
+		}
 	}
 	Void button2_Click(Object^ sender, EventArgs^ e) {
 		string str = msclr::interop::marshal_as<std::string>(textBox2->Text);
