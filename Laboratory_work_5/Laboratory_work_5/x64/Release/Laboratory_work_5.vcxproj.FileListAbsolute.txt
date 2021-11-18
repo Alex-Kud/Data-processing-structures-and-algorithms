@@ -1,0 +1,2 @@
+C:\Users\sasha\source\repos\Laboratory_work_5\Laboratory_work_5\x64\Release\Laboratorywork5.MyForm.resources
+C:\Users\sasha\source\repos\Laboratory_work_5\Laboratory_work_5\x64\Release\Laboratory_work_5.vcxproj.GenerateResource.cache
