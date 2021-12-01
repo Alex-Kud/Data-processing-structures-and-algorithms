@@ -1089,12 +1089,11 @@ namespace Laboratorywork5 {
 		for (int i = 1; i < size; i++) {
 			const int data = num[i];	// Pапоминаем значение элемента
 			int index = i;				// и его индекс
-			while (index > 0 && num[index - 1] > data) { // Cмещаем другие элементы к концу массива пока они меньше index
+			while (index > 0 && num[index - 1] >= data) { // Cмещаем другие элементы к концу массива пока они меньше index
 				num[index] = num[index - 1];
 				index--;	// Cмещаем просмотр к началу массива
 				comparisons++; // Сравнения
 			}
-			if (num[index] != data)
 				permutations++; // Перемещения
 			num[index] = data;	// Hассматриваемый элемент помещаем на освободившееся место
 		}
@@ -1105,7 +1104,7 @@ namespace Laboratorywork5 {
 		for (int i = 1; i < size; i++) {
 			const int data = num[i];	// Pапоминаем значение элемента
 			int index = i;				// и его индекс
-			while (index > 0 && num[index - 1] > data) { // Cмещаем другие элементы к концу массива пока они меньше index
+			while (index > 0 && num[index - 1] >= data) { // Cмещаем другие элементы к концу массива пока они меньше index
 				num[index] = num[index - 1];
 				index--;	// Cмещаем просмотр к началу массива
 			}

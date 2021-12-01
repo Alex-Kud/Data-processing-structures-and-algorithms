@@ -1,5 +1,5 @@
 ﻿  MyForm.cpp
-C:\Users\sasha\source\repos\Laboratory_work_5\Laboratory_work_5\MyForm.h(1191,17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\sasha\source\repos\Laboratory_work_5\Laboratory_work_5\MyForm.h(1213,17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\sasha\source\repos\Laboratory_work_5\Laboratory_work_5\MyForm.h(1190,17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\sasha\source\repos\Laboratory_work_5\Laboratory_work_5\MyForm.h(1212,17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
   MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
   Laboratory_work_5.vcxproj -> C:\Users\sasha\source\repos\Laboratory_work_5\x64\Release\Laboratory_work_5.exe
