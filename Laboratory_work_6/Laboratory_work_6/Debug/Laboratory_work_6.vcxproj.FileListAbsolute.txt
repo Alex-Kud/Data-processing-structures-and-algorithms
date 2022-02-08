@@ -1,0 +1,3 @@
+C:\Users\sasha\source\repos\Laboratory_work_6\Laboratory_work_6\Debug\Laboratory_work_6.vcxproj.AssemblyReference.cache
+C:\Users\sasha\source\repos\Laboratory_work_6\Laboratory_work_6\Debug\Laboratorywork6.MyForm.resources
+C:\Users\sasha\source\repos\Laboratory_work_6\Laboratory_work_6\Debug\Laboratory_work_6.vcxproj.GenerateResource.cache
