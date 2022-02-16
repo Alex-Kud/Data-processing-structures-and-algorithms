@@ -33,3 +33,4 @@ The repository was created to host laboratory work on the university subject of 
 ##  The sixth laboratory work
 * External two-phase sorting by simple merging
 * External single-phase sorting by simple merging
+![6_laba](https://user-images.githubusercontent.com/71846671/154325714-32029eeb-9ae1-499e-bb35-adde1a37fda3.png)
