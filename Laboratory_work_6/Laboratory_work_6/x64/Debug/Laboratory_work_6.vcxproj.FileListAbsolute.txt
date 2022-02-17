@@ -4,3 +4,6 @@ C:\Users\sasha\Downloads\Data-processing-structures-and-algorithms-main (2)\Data
 D:\Alex\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\x64\Debug\Laboratory_work_6.vcxproj.AssemblyReference.cache
 D:\Alex\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\x64\Debug\Laboratorywork6.MyForm.resources
 D:\Alex\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\x64\Debug\Laboratory_work_6.vcxproj.GenerateResource.cache
+C:\Users\sasha\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\x64\Debug\Laboratory_work_6.vcxproj.AssemblyReference.cache
+C:\Users\sasha\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\x64\Debug\Laboratorywork6.MyForm.resources
+C:\Users\sasha\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\x64\Debug\Laboratory_work_6.vcxproj.GenerateResource.cache

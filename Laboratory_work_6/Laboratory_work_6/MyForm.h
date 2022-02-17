@@ -90,9 +90,6 @@ namespace Laboratorywork6 {
 		System::ComponentModel::Container ^components;
 #pragma region Windows Form Designer generated code
 		void InitializeComponent(void)		{
-			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle1 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
-			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle2 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
-			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle3 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
 			this->tabControl1 = (gcnew System::Windows::Forms::TabControl());
 			this->tabPage4 = (gcnew System::Windows::Forms::TabPage());
 			this->label9 = (gcnew System::Windows::Forms::Label());
@@ -170,10 +167,11 @@ namespace Laboratorywork6 {
 			this->tabControl1->Controls->Add(this->tabPage3);
 			this->tabControl1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->tabControl1->Location = System::Drawing::Point(15, 9);
+			this->tabControl1->Location = System::Drawing::Point(22, 14);
+			this->tabControl1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->tabControl1->Name = L"tabControl1";
 			this->tabControl1->SelectedIndex = 0;
-			this->tabControl1->Size = System::Drawing::Size(1061, 451);
+			this->tabControl1->Size = System::Drawing::Size(1592, 694);
 			this->tabControl1->TabIndex = 0;
 			// 
 			// tabPage4
@@ -193,37 +191,40 @@ namespace Laboratorywork6 {
 			this->tabPage4->Controls->Add(this->label2);
 			this->tabPage4->Controls->Add(this->label1);
 			this->tabPage4->Controls->Add(this->button1);
-			this->tabPage4->Location = System::Drawing::Point(4, 34);
-			this->tabPage4->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
+			this->tabPage4->Location = System::Drawing::Point(4, 46);
+			this->tabPage4->Margin = System::Windows::Forms::Padding(3, 5, 3, 5);
 			this->tabPage4->Name = L"tabPage4";
-			this->tabPage4->Size = System::Drawing::Size(1053, 413);
+			this->tabPage4->Size = System::Drawing::Size(1584, 644);
 			this->tabPage4->TabIndex = 3;
 			this->tabPage4->Text = L"Характеристики";
 			// 
 			// label9
 			// 
 			this->label9->AutoSize = true;
-			this->label9->Location = System::Drawing::Point(582, 319);
+			this->label9->Location = System::Drawing::Point(873, 491);
+			this->label9->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(45, 25);
+			this->label9->Size = System::Drawing::Size(66, 37);
 			this->label9->TabIndex = 15;
 			this->label9->Text = L"По:";
 			// 
 			// label8
 			// 
 			this->label8->AutoSize = true;
-			this->label8->Location = System::Drawing::Point(580, 275);
+			this->label8->Location = System::Drawing::Point(870, 423);
+			this->label8->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(44, 25);
+			this->label8->Size = System::Drawing::Size(65, 37);
 			this->label8->TabIndex = 14;
 			this->label8->Text = L"Из:";
 			// 
 			// label7
 			// 
 			this->label7->AutoSize = true;
-			this->label7->Location = System::Drawing::Point(580, 230);
+			this->label7->Location = System::Drawing::Point(870, 354);
+			this->label7->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(33, 25);
+			this->label7->Size = System::Drawing::Size(49, 37);
 			this->label7->TabIndex = 13;
 			this->label7->Text = L"C:";
 			// 
@@ -231,21 +232,22 @@ namespace Laboratorywork6 {
 			// 
 			this->comboBox1->BackColor = System::Drawing::Color::PaleGoldenrod;
 			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"a.txt", L"b.txt", L"c.txt" });
-			this->comboBox1->Location = System::Drawing::Point(632, 272);
-			this->comboBox1->Margin = System::Windows::Forms::Padding(2);
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(6) {
+				L"a.txt", L"b.txt", L"c.txt", L"a2.txt", L"b2.txt",
+					L"c2.txt"
+			});
+			this->comboBox1->Location = System::Drawing::Point(948, 418);
 			this->comboBox1->Name = L"comboBox1";
-			this->comboBox1->Size = System::Drawing::Size(373, 33);
+			this->comboBox1->Size = System::Drawing::Size(558, 45);
 			this->comboBox1->TabIndex = 12;
 			// 
 			// button4
 			// 
 			this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button4->Location = System::Drawing::Point(585, 358);
-			this->button4->Margin = System::Windows::Forms::Padding(2);
+			this->button4->Location = System::Drawing::Point(878, 551);
 			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(420, 38);
+			this->button4->Size = System::Drawing::Size(630, 58);
 			this->button4->TabIndex = 11;
 			this->button4->Text = L"Вывести";
 			this->button4->UseVisualStyleBackColor = true;
@@ -254,30 +256,27 @@ namespace Laboratorywork6 {
 			// numericUpDown3
 			// 
 			this->numericUpDown3->BackColor = System::Drawing::Color::PaleGoldenrod;
-			this->numericUpDown3->Location = System::Drawing::Point(632, 317);
-			this->numericUpDown3->Margin = System::Windows::Forms::Padding(2);
+			this->numericUpDown3->Location = System::Drawing::Point(948, 488);
 			this->numericUpDown3->Name = L"numericUpDown3";
-			this->numericUpDown3->Size = System::Drawing::Size(373, 31);
+			this->numericUpDown3->Size = System::Drawing::Size(560, 43);
 			this->numericUpDown3->TabIndex = 10;
 			// 
 			// numericUpDown2
 			// 
 			this->numericUpDown2->BackColor = System::Drawing::Color::PaleGoldenrod;
-			this->numericUpDown2->Location = System::Drawing::Point(632, 228);
-			this->numericUpDown2->Margin = System::Windows::Forms::Padding(2);
+			this->numericUpDown2->Location = System::Drawing::Point(948, 351);
 			this->numericUpDown2->Name = L"numericUpDown2";
-			this->numericUpDown2->Size = System::Drawing::Size(373, 31);
+			this->numericUpDown2->Size = System::Drawing::Size(560, 43);
 			this->numericUpDown2->TabIndex = 9;
 			// 
 			// textBox1
 			// 
 			this->textBox1->BackColor = System::Drawing::Color::PaleGoldenrod;
-			this->textBox1->Location = System::Drawing::Point(585, 84);
-			this->textBox1->Margin = System::Windows::Forms::Padding(2);
+			this->textBox1->Location = System::Drawing::Point(878, 129);
 			this->textBox1->Multiline = true;
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->ScrollBars = System::Windows::Forms::ScrollBars::Vertical;
-			this->textBox1->Size = System::Drawing::Size(420, 133);
+			this->textBox1->Size = System::Drawing::Size(628, 202);
 			this->textBox1->TabIndex = 8;
 			// 
 			// label5
@@ -285,63 +284,35 @@ namespace Laboratorywork6 {
 			this->label5->AutoSize = true;
 			this->label5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label5->Location = System::Drawing::Point(12, 317);
-			this->label5->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label5->Location = System::Drawing::Point(18, 488);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(261, 20);
+			this->label5->Size = System::Drawing::Size(392, 29);
 			this->label5->TabIndex = 7;
 			this->label5->Text = L"Введите количество элементов:";
 			// 
 			// numericUpDown1
 			// 
 			this->numericUpDown1->BackColor = System::Drawing::Color::PaleGoldenrod;
-			this->numericUpDown1->Location = System::Drawing::Point(274, 311);
-			this->numericUpDown1->Margin = System::Windows::Forms::Padding(2);
+			this->numericUpDown1->Location = System::Drawing::Point(411, 478);
 			this->numericUpDown1->Name = L"numericUpDown1";
-			this->numericUpDown1->Size = System::Drawing::Size(162, 31);
+			this->numericUpDown1->Size = System::Drawing::Size(243, 43);
 			this->numericUpDown1->TabIndex = 6;
 			// 
 			// dataGridView1
 			// 
 			this->dataGridView1->BackgroundColor = System::Drawing::SystemColors::Info;
-			dataGridViewCellStyle1->Alignment = System::Windows::Forms::DataGridViewContentAlignment::MiddleLeft;
-			dataGridViewCellStyle1->BackColor = System::Drawing::SystemColors::Control;
-			dataGridViewCellStyle1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			dataGridViewCellStyle1->ForeColor = System::Drawing::SystemColors::WindowText;
-			dataGridViewCellStyle1->SelectionBackColor = System::Drawing::SystemColors::Highlight;
-			dataGridViewCellStyle1->SelectionForeColor = System::Drawing::SystemColors::HighlightText;
-			dataGridViewCellStyle1->WrapMode = System::Windows::Forms::DataGridViewTriState::True;
-			this->dataGridView1->ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
 			this->dataGridView1->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
 			this->dataGridView1->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(2) {
 				this->Column1,
 					this->Column2
 			});
-			dataGridViewCellStyle2->Alignment = System::Windows::Forms::DataGridViewContentAlignment::MiddleLeft;
-			dataGridViewCellStyle2->BackColor = System::Drawing::SystemColors::Window;
-			dataGridViewCellStyle2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			dataGridViewCellStyle2->ForeColor = System::Drawing::SystemColors::ControlText;
-			dataGridViewCellStyle2->SelectionBackColor = System::Drawing::SystemColors::Highlight;
-			dataGridViewCellStyle2->SelectionForeColor = System::Drawing::SystemColors::HighlightText;
-			dataGridViewCellStyle2->WrapMode = System::Windows::Forms::DataGridViewTriState::False;
-			this->dataGridView1->DefaultCellStyle = dataGridViewCellStyle2;
 			this->dataGridView1->GridColor = System::Drawing::SystemColors::ActiveCaption;
 			this->dataGridView1->ImeMode = System::Windows::Forms::ImeMode::Off;
-			this->dataGridView1->Location = System::Drawing::Point(16, 84);
+			this->dataGridView1->Location = System::Drawing::Point(24, 129);
+			this->dataGridView1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->dataGridView1->Name = L"dataGridView1";
-			dataGridViewCellStyle3->Alignment = System::Windows::Forms::DataGridViewContentAlignment::MiddleLeft;
-			dataGridViewCellStyle3->BackColor = System::Drawing::SystemColors::Control;
-			dataGridViewCellStyle3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			dataGridViewCellStyle3->ForeColor = System::Drawing::SystemColors::WindowText;
-			dataGridViewCellStyle3->SelectionBackColor = System::Drawing::SystemColors::Highlight;
-			dataGridViewCellStyle3->SelectionForeColor = System::Drawing::SystemColors::HighlightText;
-			dataGridViewCellStyle3->WrapMode = System::Windows::Forms::DataGridViewTriState::True;
-			this->dataGridView1->RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
 			this->dataGridView1->RowHeadersWidth = 165;
-			this->dataGridView1->Size = System::Drawing::Size(420, 216);
+			this->dataGridView1->Size = System::Drawing::Size(630, 332);
 			this->dataGridView1->TabIndex = 5;
 			// 
 			// Column1
@@ -363,10 +334,9 @@ namespace Laboratorywork6 {
 			this->label2->AutoSize = true;
 			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label2->Location = System::Drawing::Point(12, 54);
-			this->label2->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label2->Location = System::Drawing::Point(18, 83);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(174, 20);
+			this->label2->Size = System::Drawing::Size(262, 29);
 			this->label2->TabIndex = 3;
 			this->label2->Text = L"Замер характеристик";
 			// 
@@ -375,19 +345,18 @@ namespace Laboratorywork6 {
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label1->Location = System::Drawing::Point(406, 14);
-			this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label1->Location = System::Drawing::Point(609, 22);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(276, 26);
+			this->label1->Size = System::Drawing::Size(392, 37);
 			this->label1->TabIndex = 2;
 			this->label1->Text = L"Лабораторная работа №6";
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(16, 358);
-			this->button1->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
+			this->button1->Location = System::Drawing::Point(24, 551);
+			this->button1->Margin = System::Windows::Forms::Padding(3, 5, 3, 5);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(420, 38);
+			this->button1->Size = System::Drawing::Size(630, 58);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"Запустить";
 			this->button1->UseVisualStyleBackColor = true;
@@ -399,10 +368,11 @@ namespace Laboratorywork6 {
 			this->tabPage2->Controls->Add(this->button2);
 			this->tabPage2->Controls->Add(this->dataGridView2);
 			this->tabPage2->Controls->Add(this->label3);
-			this->tabPage2->Location = System::Drawing::Point(4, 34);
+			this->tabPage2->Location = System::Drawing::Point(4, 46);
+			this->tabPage2->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->tabPage2->Name = L"tabPage2";
-			this->tabPage2->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage2->Size = System::Drawing::Size(1053, 413);
+			this->tabPage2->Padding = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->tabPage2->Size = System::Drawing::Size(1584, 644);
 			this->tabPage2->TabIndex = 1;
 			this->tabPage2->Text = L"Двухфазная сортировка";
 			// 
@@ -410,10 +380,9 @@ namespace Laboratorywork6 {
 			// 
 			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button2->Location = System::Drawing::Point(345, 367);
-			this->button2->Margin = System::Windows::Forms::Padding(2);
+			this->button2->Location = System::Drawing::Point(518, 565);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(680, 34);
+			this->button2->Size = System::Drawing::Size(1020, 52);
 			this->button2->TabIndex = 2;
 			this->button2->Text = L"Сортировать";
 			this->button2->UseVisualStyleBackColor = true;
@@ -429,11 +398,11 @@ namespace Laboratorywork6 {
 					this->Column13, this->Column14, this->Column15, this->Column16, this->Column17
 			});
 			this->dataGridView2->Location = System::Drawing::Point(0, 0);
-			this->dataGridView2->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
+			this->dataGridView2->Margin = System::Windows::Forms::Padding(3, 5, 3, 5);
 			this->dataGridView2->Name = L"dataGridView2";
 			this->dataGridView2->RowHeadersWidth = 51;
 			this->dataGridView2->RowTemplate->Height = 24;
-			this->dataGridView2->Size = System::Drawing::Size(1053, 352);
+			this->dataGridView2->Size = System::Drawing::Size(1580, 542);
 			this->dataGridView2->TabIndex = 2;
 			// 
 			// Column3
@@ -546,10 +515,9 @@ namespace Laboratorywork6 {
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label3->Location = System::Drawing::Point(5, 372);
-			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label3->Location = System::Drawing::Point(8, 572);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(336, 26);
+			this->label3->Size = System::Drawing::Size(466, 37);
 			this->label3->TabIndex = 1;
 			this->label3->Text = L"Запуск двухфазной сортировки";
 			// 
@@ -561,9 +529,10 @@ namespace Laboratorywork6 {
 			this->tabPage3->Controls->Add(this->label4);
 			this->tabPage3->Controls->Add(this->button3);
 			this->tabPage3->Controls->Add(this->dataGridView3);
-			this->tabPage3->Location = System::Drawing::Point(4, 34);
+			this->tabPage3->Location = System::Drawing::Point(4, 46);
+			this->tabPage3->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->tabPage3->Name = L"tabPage3";
-			this->tabPage3->Size = System::Drawing::Size(1053, 413);
+			this->tabPage3->Size = System::Drawing::Size(1584, 644);
 			this->tabPage3->TabIndex = 2;
 			this->tabPage3->Text = L"Однофазная сортировка";
 			// 
@@ -571,9 +540,10 @@ namespace Laboratorywork6 {
 			// 
 			this->button5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button5->Location = System::Drawing::Point(342, 368);
+			this->button5->Location = System::Drawing::Point(513, 566);
+			this->button5->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(685, 32);
+			this->button5->Size = System::Drawing::Size(1028, 49);
 			this->button5->TabIndex = 4;
 			this->button5->Text = L"Сортировать";
 			this->button5->UseVisualStyleBackColor = true;
@@ -584,9 +554,10 @@ namespace Laboratorywork6 {
 			this->label6->AutoSize = true;
 			this->label6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label6->Location = System::Drawing::Point(3, 372);
+			this->label6->Location = System::Drawing::Point(4, 572);
+			this->label6->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(333, 25);
+			this->label6->Size = System::Drawing::Size(472, 37);
 			this->label6->TabIndex = 3;
 			this->label6->Text = L"Запуск однофазной сортировки";
 			// 
@@ -595,19 +566,17 @@ namespace Laboratorywork6 {
 			this->label4->AutoSize = true;
 			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label4->Location = System::Drawing::Point(235, 431);
-			this->label4->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label4->Location = System::Drawing::Point(352, 663);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(338, 26);
+			this->label4->Size = System::Drawing::Size(472, 37);
 			this->label4->TabIndex = 2;
 			this->label4->Text = L"Запуск однофазной сортировки";
 			// 
 			// button3
 			// 
-			this->button3->Location = System::Drawing::Point(320, 484);
-			this->button3->Margin = System::Windows::Forms::Padding(2);
+			this->button3->Location = System::Drawing::Point(480, 745);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(127, 24);
+			this->button3->Size = System::Drawing::Size(190, 37);
 			this->button3->TabIndex = 1;
 			this->button3->Text = L"Сортировать";
 			this->button3->UseVisualStyleBackColor = true;
@@ -622,11 +591,11 @@ namespace Laboratorywork6 {
 					this->Column27, this->Column28, this->Column29, this->Column30, this->Column31, this->Column32
 			});
 			this->dataGridView3->Location = System::Drawing::Point(0, 0);
-			this->dataGridView3->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
+			this->dataGridView3->Margin = System::Windows::Forms::Padding(3, 5, 3, 5);
 			this->dataGridView3->Name = L"dataGridView3";
 			this->dataGridView3->RowHeadersWidth = 51;
 			this->dataGridView3->RowTemplate->Height = 24;
-			this->dataGridView3->Size = System::Drawing::Size(1053, 362);
+			this->dataGridView3->Size = System::Drawing::Size(1580, 557);
 			this->dataGridView3->TabIndex = 0;
 			// 
 			// Column18
@@ -736,11 +705,12 @@ namespace Laboratorywork6 {
 			// 
 			// MyForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::LemonChiffon;
-			this->ClientSize = System::Drawing::Size(1080, 476);
+			this->ClientSize = System::Drawing::Size(1620, 732);
 			this->Controls->Add(this->tabControl1);
+			this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->Name = L"MyForm";
 			this->Text = L"Сортировки простым слиянием";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
@@ -764,11 +734,11 @@ namespace Laboratorywork6 {
 
 	Void MyForm_Load(Object^ sender, EventArgs^ e) {
 		ofstream writeA("a.txt", std::ios::in);		// Открыли файл для записи
-		ofstream writeB("b.txt");		// Открыли файл для записи
-		ofstream writeC("c.txt");		// Открыли файл для записи
-		ofstream writeD("d.txt");		// Открыли файл для записи
-		ofstream writeE("e.txt");		// Открыли файл для записи
-		ofstream writeT("temp.txt");	// Открыли файл для записи
+		ofstream writeB("b.txt");							// Открыли файл для записи
+		ofstream writeC("c.txt");							// Открыли файл для записи
+		ofstream writeD("d.txt");							// Открыли файл для записи
+		ofstream writeE("e.txt");							// Открыли файл для записи
+		ofstream writeT("temp.txt");						// Открыли файл для записи
 		writeA << "e"; writeB << "e"; writeC << "e";
 		writeD << "e"; writeE << "e"; writeT << "e";
 		writeA.close();
@@ -857,13 +827,11 @@ namespace Laboratorywork6 {
 		dataGridView1->Rows[1]->Cells[1]->Value = incount;
 		dataGridView1->Rows[2]->Cells[1]->Value = compcount;
 		dataGridView1->Rows[3]->Cells[1]->Value = outcount;
-		ofstream writeA("a.txt");		// Открыли файл для записи
+		////////////////////////////////////////////////////
+		ofstream writeA("a2.txt");		// Открыли файл для записи
 		for (int i = 0; i < size; ++i)
 			writeA << " " << arr[i];
 		writeA.close();							// Закрыли файл для записи
-		ifstream readA("a.txt");			// Открыли файл для чтения
-		ifstream readB("b.txt");			// Открыли файл для чтения
-		ifstream readC("c.txt");			// Открыли файл для чтения
 		// ---------------------------------------
 		// ---------------------------------------
 		// ---------Двухфазная сортировка---------
@@ -893,12 +861,12 @@ namespace Laboratorywork6 {
 
 	// Разделение на 2 файла. len - количество элементов в последовательности
 	void simpleSortSplit(long len, int& incount, int& compcount, int& outcount)  {
-		ifstream readA1("a.txt");		// Открыли файл для чтения
+		ifstream readA1("a2.txt");		// Открыли файл для чтения
 		ifstream readT("temp.txt");		// Открыли файл для чтения
 		ofstream writeT("temp.txt");
-		ofstream writeB("b.txt");		// Открыли файл для записи
-		ofstream writeC("c.txt");		// Открыли файл для записи
-		ifstream readA("a.txt");		// Открыли файл для чтения
+		ofstream writeB("b2.txt");		// Открыли файл для записи
+		ofstream writeC("c2.txt");		// Открыли файл для записи
+		ifstream readA("a2.txt");		// Открыли файл для чтения
 		long curLen = len;						// Осталось обработать элементов в последовательности
 		bool file = true;						// Определяем файл записи: true - файл b, false - файл c
 		while (!readA.eof()) {					// Пока файл не пуст, считываем числа
@@ -925,9 +893,9 @@ namespace Laboratorywork6 {
 
 	// Метод для объединения данных из двух файлов в один
 	void simpleSortCombine(long len, int& incount, int& compcount, int& outcount) {
-		ofstream writeA("a.txt");		// открыли файл для записи
-		ifstream readB("b.txt");			// открыли файл для чтения
-		ifstream readC("c.txt");			// открыли файл для чтения
+		ofstream writeA("a2.txt");		// открыли файл для записи
+		ifstream readB("b2.txt");			// открыли файл для чтения
+		ifstream readC("c2.txt");			// открыли файл для чтения
 		//Читаем первые числа из 2 файлов
 		int fileB, fileC;
 		if (readB.eof()) fileB = -1;			// Если файл пуст, устанавливаем значение -1
@@ -1216,7 +1184,7 @@ namespace Laboratorywork6 {
 	   writeFirst.close();										// Закрываем поток записи
 	   writeSecond.close();										// Закрываем поток записи
 	}
-
+// Итеративная демонстрация алгоритма однофазной сортировки
 Void button2_Click(Object^ sender, System::EventArgs^ e) {
 	int size_demo = 15;
 	int* arr = new int[size_demo];
@@ -1243,10 +1211,14 @@ Void button2_Click(Object^ sender, System::EventArgs^ e) {
 	}
 	printStr("a.txt", row, dataGridView2);
 }
-
+// Вывод части файла
 Void button4_Click(Object^ sender, EventArgs^ e) {
 	long min = Convert::ToInt64(numericUpDown2->Value);
 	long max = Convert::ToInt64(numericUpDown3->Value);
+	if (max < min) {
+		textBox1->Text = "Я ругаюсь. Ты накосячил";
+		return;
+	}
 	string path = msclr::interop::marshal_as<std::string>(comboBox1->SelectedItem->ToString());
 	ifstream readF(path);		// Открыли файл для чтения
 	ifstream readT("temp.txt");		// Открыли файл для чтения
@@ -1316,7 +1288,7 @@ void printStr(string path, int row, DataGridView^ data) {
 	readT.close();
 	writeF.close();
 }
-
+// Итеративная демонстрация алгоритма однофазной сортировки
 Void button5_Click(Object^ sender, EventArgs^ e) {
 	int size_demo = 15;
 	int* arr = new int[size_demo];
