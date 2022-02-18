@@ -85,13 +85,18 @@ namespace Laboratorywork6 {
 	private: System::Windows::Forms::Label^ label9;
 	private: System::Windows::Forms::Label^ label8;
 	private: System::Windows::Forms::Label^ label7;
+	private: System::Windows::Forms::TextBox^ textBox2;
 
 	private:
 		System::ComponentModel::Container ^components;
 #pragma region Windows Form Designer generated code
 		void InitializeComponent(void)		{
+			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle1 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
+			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle2 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
+			System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle3 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
 			this->tabControl1 = (gcnew System::Windows::Forms::TabControl());
 			this->tabPage4 = (gcnew System::Windows::Forms::TabPage());
+			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
 			this->label9 = (gcnew System::Windows::Forms::Label());
 			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->label7 = (gcnew System::Windows::Forms::Label());
@@ -177,6 +182,7 @@ namespace Laboratorywork6 {
 			// tabPage4
 			// 
 			this->tabPage4->BackColor = System::Drawing::Color::LemonChiffon;
+			this->tabPage4->Controls->Add(this->textBox2);
 			this->tabPage4->Controls->Add(this->label9);
 			this->tabPage4->Controls->Add(this->label8);
 			this->tabPage4->Controls->Add(this->label7);
@@ -198,10 +204,20 @@ namespace Laboratorywork6 {
 			this->tabPage4->TabIndex = 3;
 			this->tabPage4->Text = L"Характеристики";
 			// 
+			// textBox2
+			// 
+			this->textBox2->BackColor = System::Drawing::Color::PaleGoldenrod;
+			this->textBox2->Location = System::Drawing::Point(661, 129);
+			this->textBox2->Multiline = true;
+			this->textBox2->Name = L"textBox2";
+			this->textBox2->ScrollBars = System::Windows::Forms::ScrollBars::Vertical;
+			this->textBox2->Size = System::Drawing::Size(458, 202);
+			this->textBox2->TabIndex = 16;
+			// 
 			// label9
 			// 
 			this->label9->AutoSize = true;
-			this->label9->Location = System::Drawing::Point(873, 491);
+			this->label9->Location = System::Drawing::Point(826, 486);
 			this->label9->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(66, 37);
@@ -211,7 +227,7 @@ namespace Laboratorywork6 {
 			// label8
 			// 
 			this->label8->AutoSize = true;
-			this->label8->Location = System::Drawing::Point(870, 423);
+			this->label8->Location = System::Drawing::Point(823, 418);
 			this->label8->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(65, 37);
@@ -221,7 +237,7 @@ namespace Laboratorywork6 {
 			// label7
 			// 
 			this->label7->AutoSize = true;
-			this->label7->Location = System::Drawing::Point(870, 354);
+			this->label7->Location = System::Drawing::Point(823, 349);
 			this->label7->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(49, 37);
@@ -236,7 +252,7 @@ namespace Laboratorywork6 {
 				L"a.txt", L"b.txt", L"c.txt", L"a2.txt", L"b2.txt",
 					L"c2.txt"
 			});
-			this->comboBox1->Location = System::Drawing::Point(948, 418);
+			this->comboBox1->Location = System::Drawing::Point(901, 413);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(558, 45);
 			this->comboBox1->TabIndex = 12;
@@ -245,7 +261,7 @@ namespace Laboratorywork6 {
 			// 
 			this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button4->Location = System::Drawing::Point(878, 551);
+			this->button4->Location = System::Drawing::Point(831, 546);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(630, 58);
 			this->button4->TabIndex = 11;
@@ -256,7 +272,7 @@ namespace Laboratorywork6 {
 			// numericUpDown3
 			// 
 			this->numericUpDown3->BackColor = System::Drawing::Color::PaleGoldenrod;
-			this->numericUpDown3->Location = System::Drawing::Point(948, 488);
+			this->numericUpDown3->Location = System::Drawing::Point(901, 483);
 			this->numericUpDown3->Name = L"numericUpDown3";
 			this->numericUpDown3->Size = System::Drawing::Size(560, 43);
 			this->numericUpDown3->TabIndex = 10;
@@ -264,7 +280,7 @@ namespace Laboratorywork6 {
 			// numericUpDown2
 			// 
 			this->numericUpDown2->BackColor = System::Drawing::Color::PaleGoldenrod;
-			this->numericUpDown2->Location = System::Drawing::Point(948, 351);
+			this->numericUpDown2->Location = System::Drawing::Point(901, 346);
 			this->numericUpDown2->Name = L"numericUpDown2";
 			this->numericUpDown2->Size = System::Drawing::Size(560, 43);
 			this->numericUpDown2->TabIndex = 9;
@@ -272,11 +288,11 @@ namespace Laboratorywork6 {
 			// textBox1
 			// 
 			this->textBox1->BackColor = System::Drawing::Color::PaleGoldenrod;
-			this->textBox1->Location = System::Drawing::Point(878, 129);
+			this->textBox1->Location = System::Drawing::Point(1125, 129);
 			this->textBox1->Multiline = true;
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->ScrollBars = System::Windows::Forms::ScrollBars::Vertical;
-			this->textBox1->Size = System::Drawing::Size(628, 202);
+			this->textBox1->Size = System::Drawing::Size(459, 202);
 			this->textBox1->TabIndex = 8;
 			// 
 			// label5
@@ -301,16 +317,43 @@ namespace Laboratorywork6 {
 			// dataGridView1
 			// 
 			this->dataGridView1->BackgroundColor = System::Drawing::SystemColors::Info;
+			dataGridViewCellStyle1->Alignment = System::Windows::Forms::DataGridViewContentAlignment::MiddleLeft;
+			dataGridViewCellStyle1->BackColor = System::Drawing::SystemColors::Control;
+			dataGridViewCellStyle1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			dataGridViewCellStyle1->ForeColor = System::Drawing::SystemColors::WindowText;
+			dataGridViewCellStyle1->SelectionBackColor = System::Drawing::SystemColors::Highlight;
+			dataGridViewCellStyle1->SelectionForeColor = System::Drawing::SystemColors::HighlightText;
+			dataGridViewCellStyle1->WrapMode = System::Windows::Forms::DataGridViewTriState::True;
+			this->dataGridView1->ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
 			this->dataGridView1->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
 			this->dataGridView1->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(2) {
 				this->Column1,
 					this->Column2
 			});
+			dataGridViewCellStyle2->Alignment = System::Windows::Forms::DataGridViewContentAlignment::MiddleLeft;
+			dataGridViewCellStyle2->BackColor = System::Drawing::SystemColors::Window;
+			dataGridViewCellStyle2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			dataGridViewCellStyle2->ForeColor = System::Drawing::SystemColors::ControlText;
+			dataGridViewCellStyle2->SelectionBackColor = System::Drawing::SystemColors::Highlight;
+			dataGridViewCellStyle2->SelectionForeColor = System::Drawing::SystemColors::HighlightText;
+			dataGridViewCellStyle2->WrapMode = System::Windows::Forms::DataGridViewTriState::False;
+			this->dataGridView1->DefaultCellStyle = dataGridViewCellStyle2;
 			this->dataGridView1->GridColor = System::Drawing::SystemColors::ActiveCaption;
 			this->dataGridView1->ImeMode = System::Windows::Forms::ImeMode::Off;
 			this->dataGridView1->Location = System::Drawing::Point(24, 129);
 			this->dataGridView1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->dataGridView1->Name = L"dataGridView1";
+			dataGridViewCellStyle3->Alignment = System::Windows::Forms::DataGridViewContentAlignment::MiddleLeft;
+			dataGridViewCellStyle3->BackColor = System::Drawing::SystemColors::Control;
+			dataGridViewCellStyle3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			dataGridViewCellStyle3->ForeColor = System::Drawing::SystemColors::WindowText;
+			dataGridViewCellStyle3->SelectionBackColor = System::Drawing::SystemColors::Highlight;
+			dataGridViewCellStyle3->SelectionForeColor = System::Drawing::SystemColors::HighlightText;
+			dataGridViewCellStyle3->WrapMode = System::Windows::Forms::DataGridViewTriState::True;
+			this->dataGridView1->RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
 			this->dataGridView1->RowHeadersWidth = 165;
 			this->dataGridView1->Size = System::Drawing::Size(630, 332);
 			this->dataGridView1->TabIndex = 5;
@@ -755,6 +798,7 @@ namespace Laboratorywork6 {
 		dataGridView1->Rows[1]->HeaderCell->Value = "Чтения";
 		dataGridView1->Rows[2]->HeaderCell->Value = "Сравнения";
 		dataGridView1->Rows[3]->HeaderCell->Value = "Записи";
+		
 		for (int i = 0; i < 13; ++i)
 			dataGridView2->Rows->Add();
 
@@ -787,26 +831,29 @@ namespace Laboratorywork6 {
 		comboBox1->SelectedItem = comboBox1->Items[0];
 	}
 	Void button1_Click(Object^ sender, EventArgs^ e) {
+		textBox2->Text = "";
+		ofstream writeA("a.txt");					// Открыли файл для записи
+		ofstream writeA2("a2.txt");					// Открыли файл для записи
 		size = Convert::ToInt64(numericUpDown1->Value);
-		int* arr = new int[size];
-		for (int i = 0; i < size; ++i)
-			arr[i] = rand() % 1000;
+		for (int i = 0; i < size; ++i) {
+			int number = rand() % 100;
+			writeA << " " << number;
+			writeA2 << " " << number;
+			textBox2->Text += number + " ";
+		}
+		writeA.close();
+		writeA2.close();
 		// ---------------------------------------
 		// ---------------------------------------
 		// ---------Однофазная сортировка---------
 		// ---------------------------------------
 		// ---------------------------------------
-		ofstream writeA2("a.txt");					// Открыли файл для записи
-		for (int i = 0; i < size; ++i)
-			writeA2 << " " << arr[i];
-		writeA2.close();									// Закрыли файл для записи
-
 		int incount = 0;									// Счётчик считываний из файла
 		int compcount = 0;									// Счётчик сравнений
 		int outcount = 0;									// Счетчик записей в файл
 		auto startOnePhase = std::chrono::high_resolution_clock::now();
-		simpleSortSplit1(incount, compcount, outcount);								// Разделяем файл a.txt на два файла b.txt и c.txt
-		bool file = true;								// Определяем файлы записи: true - читать из b c, писать в d e, false - файл читать из d e, писать в b c
+		simpleSortSplit1(incount, compcount, outcount);	// Разделяем файл a.txt на два файла b.txt и c.txt
+		bool file = true; // Определяем файлы записи: true - читать из b c, писать в d e, false - файл читать из d e, писать в b c
 		// i - количество элементов, которые должны быть переведены в другой файл вместе
 		for (long i = 1; i < size / 2; i *= 2) {
 			//В зависимости от направления записи передаём файлы для чтения и записи
@@ -814,9 +861,9 @@ namespace Laboratorywork6 {
 				betweenFiles(i, "b.txt", "c.txt", "d.txt", "e.txt", incount, compcount, outcount);	// Читать из b c, писать в d e
 			else
 				betweenFiles(i, "d.txt", "e.txt", "b.txt", "c.txt", incount, compcount, outcount);	// Читать из d e, писать в b c
-			file = !file;								// Меняем направление
+			file = !file;					// Меняем направление
 		}
-		if (file)										// Теперь объединяем обратно в файл a, используя последние редактируемые файлы
+		if (file)							// Теперь объединяем обратно в файл a, используя последние редактируемые файлы
 			simpleSortCombine1(size, "b.txt", "c.txt", incount, compcount, outcount);	// Читать из b c
 		else
 			simpleSortCombine1(size, "d.txt", "e.txt", incount, compcount, outcount);	// Читать из d e
@@ -827,11 +874,6 @@ namespace Laboratorywork6 {
 		dataGridView1->Rows[1]->Cells[1]->Value = incount;
 		dataGridView1->Rows[2]->Cells[1]->Value = compcount;
 		dataGridView1->Rows[3]->Cells[1]->Value = outcount;
-		////////////////////////////////////////////////////
-		ofstream writeA("a2.txt");		// Открыли файл для записи
-		for (int i = 0; i < size; ++i)
-			writeA << " " << arr[i];
-		writeA.close();							// Закрыли файл для записи
 		// ---------------------------------------
 		// ---------------------------------------
 		// ---------Двухфазная сортировка---------
@@ -842,7 +884,7 @@ namespace Laboratorywork6 {
 		outcount = 0;						// Счетчик записей в файл
 		auto startTwoPhase = std::chrono::high_resolution_clock::now();
 		for (long i = 1; i < size; i *= 2) {
-			simpleSortSplit(i, incount, compcount, outcount);	// Разделяем файл a.txt на два файла b.txt и c.txt
+			simpleSortSplit(i, incount, compcount, outcount);		// Разделяем файл a.txt на два файла b.txt и c.txt
 			simpleSortCombine(i, incount , compcount, outcount);	// Объединяем файлы b.txt и c.txt в файл a.txt
 		}
 		auto finishTwoPhaseg = std::chrono::high_resolution_clock::now();
@@ -852,7 +894,6 @@ namespace Laboratorywork6 {
 		dataGridView1->Rows[1]->Cells[0]->Value = incount;
 		dataGridView1->Rows[2]->Cells[0]->Value = compcount;
 		dataGridView1->Rows[3]->Cells[0]->Value = outcount;
-		delete[] arr;
 		numericUpDown2->Minimum = 0;
 		numericUpDown2->Maximum = size - 1;
 		numericUpDown3->Minimum = 0;
@@ -861,9 +902,6 @@ namespace Laboratorywork6 {
 
 	// Разделение на 2 файла. len - количество элементов в последовательности
 	void simpleSortSplit(long len, int& incount, int& compcount, int& outcount)  {
-		ifstream readA1("a2.txt");		// Открыли файл для чтения
-		ifstream readT("temp.txt");		// Открыли файл для чтения
-		ofstream writeT("temp.txt");
 		ofstream writeB("b2.txt");		// Открыли файл для записи
 		ofstream writeC("c2.txt");		// Открыли файл для записи
 		ifstream readA("a2.txt");		// Открыли файл для чтения
@@ -1001,9 +1039,9 @@ namespace Laboratorywork6 {
 	   writeB.close();							// Закрываем поток записи
 	}
 
-	// Метод для объединения 2 файлов в методе простого слияния
+	// Метод для объединения 2 файлов в методе однофазного простого слияния
 	void simpleSortCombine1(long len, string first, string second, int& incount, int& compcount, int& outcount) {
-	   ofstream writeA("a.txt");							// Открыли файл для записи
+	   ofstream writeA("a.txt");						// Открыли файл для записи
 	   ifstream readFirst(first);								// Открыли файл для чтения
 	   ifstream readSecond(second);								// Открыли файл для чтения
 	   //Читаем первые числа из 2 файлов
@@ -1025,8 +1063,8 @@ namespace Laboratorywork6 {
 		   long curSecond = len;								// Осталось обработать элементов во второй последовательности
 		   // Пока не закончится место в последовательности или пока не достигнут конец файла
 		   while (curFirst != 0 && curSecond != 0 && fileFirst != -1 && fileSecond != -1) {
-			   compcount++;
-			   compcount++;
+			   compcount++;										// while
+			   compcount++;										// if
 			   if (fileFirst < fileSecond) {					// Сравниваем 2 числа из 2 файлов
 				   writeA << " " << fileFirst;					// Если первое меньше, то записываем его в файл a
 				   outcount++;									// Увеличение счетчика записи
@@ -1086,7 +1124,7 @@ namespace Laboratorywork6 {
 	   readFirst.close();										// Закрываем поток чтения
 	}
 
-	//Перемещаем данные в файлах в методе простого слияния. Принимает имена файлов для чтения и записи, а также длину цепочки
+	// Перемещаем данные в файлах в методе простого слияния. Принимает имена файлов для чтения и записи, а также длину цепочки
 	void betweenFiles(long len, string firstRead, string secondRead, string firstWrite, string secondWrite, int& incount, int& compcount, int& outcount){
 	   ifstream readFirst(firstRead);							// Открыли файл для чтения
 	   ifstream readSecond(secondRead);							// Открыли файл для чтения
@@ -1187,12 +1225,9 @@ namespace Laboratorywork6 {
 // Итеративная демонстрация алгоритма однофазной сортировки
 Void button2_Click(Object^ sender, System::EventArgs^ e) {
 	int size_demo = 15;
-	int* arr = new int[size_demo];
+	ofstream writeA("a2.txt");		// Открыли файл для записи
 	for (int i = 0; i < size_demo; ++i)
-		arr[i] = rand() % 1000;
-	ofstream writeA("a.txt");		// Открыли файл для записи
-	for (int i = 0; i < size_demo; ++i)
-		writeA << " " << arr[i];
+		writeA << " " << rand() % 100;
 	writeA.close();
 
 	int incount = 0;						// Счётчик считываний из файла
@@ -1200,16 +1235,16 @@ Void button2_Click(Object^ sender, System::EventArgs^ e) {
 	int outcount = 0;						// Счетчик записей в файл
 	int row = 0;							// Номер строки для вывода
 	for (long i = 1; i < size_demo; i *= 2) {
-		printStr("a.txt", row, dataGridView2);
+		printStr("a2.txt", row, dataGridView2);
 		row++;
 		simpleSortSplit(i, incount, compcount, outcount);	// Разделяем файл a.txt на два файла b.txt и c.txt
-		printStr("b.txt", row, dataGridView2);
+		printStr("b2.txt", row, dataGridView2);
 		row++;
-		printStr("c.txt", row, dataGridView2);
+		printStr("c2.txt", row, dataGridView2);
 		row++;
 		simpleSortCombine(i, incount, compcount, outcount);	// Объединяем файлы b.txt и c.txt в файл a.txt
 	}
-	printStr("a.txt", row, dataGridView2);
+	printStr("a2.txt", row, dataGridView2);
 }
 // Вывод части файла
 Void button4_Click(Object^ sender, EventArgs^ e) {
@@ -1291,12 +1326,9 @@ void printStr(string path, int row, DataGridView^ data) {
 // Итеративная демонстрация алгоритма однофазной сортировки
 Void button5_Click(Object^ sender, EventArgs^ e) {
 	int size_demo = 15;
-	int* arr = new int[size_demo];
-	for (int i = 0; i < size_demo; ++i)
-		arr[i] = rand() % 1000;
 	ofstream writeA("a.txt");		// Открыли файл для записи
 	for (int i = 0; i < size_demo; ++i)
-		writeA << " " << arr[i];
+		writeA << " " << rand() % 100;
 	writeA.close();							// Закрыли файл для записи
 
 	int incount = 0;									// Счётчик считываний из файла

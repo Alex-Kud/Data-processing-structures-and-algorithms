@@ -1,6 +1,6 @@
 ﻿  MyForm.cpp
-C:\Users\sasha\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\MyForm.h(790,26): warning C4244: =: преобразование "__int64" в "long", возможна потеря данных
-C:\Users\sasha\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\MyForm.h(1216,11): warning C4244: инициализация: преобразование "__int64" в "long", возможна потеря данных
-C:\Users\sasha\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\MyForm.h(1217,11): warning C4244: инициализация: преобразование "__int64" в "long", возможна потеря данных
+C:\Users\sasha\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\MyForm.h(804,26): warning C4244: =: преобразование "__int64" в "long", возможна потеря данных
+C:\Users\sasha\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\MyForm.h(1232,11): warning C4244: инициализация: преобразование "__int64" в "long", возможна потеря данных
+C:\Users\sasha\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\MyForm.h(1233,11): warning C4244: инициализация: преобразование "__int64" в "long", возможна потеря данных
   MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
   Laboratory_work_6.vcxproj -> C:\Users\sasha\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\x64\Debug\Laboratory_work_6.exe

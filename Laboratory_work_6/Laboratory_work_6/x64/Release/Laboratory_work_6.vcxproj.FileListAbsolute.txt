@@ -1,0 +1,3 @@
+C:\Users\sasha\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\x64\Release\Laboratorywork6.MyForm.resources
+C:\Users\sasha\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\x64\Release\Laboratory_work_6.vcxproj.GenerateResource.cache
+C:\Users\sasha\Downloads\Data-processing-structures-and-algorithms-main (3)\Data-processing-structures-and-algorithms-main\Laboratory_work_6\Laboratory_work_6\x64\Release\Laboratory_work_6.vcxproj.AssemblyReference.cache
