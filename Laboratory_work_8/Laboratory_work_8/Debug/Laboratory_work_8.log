@@ -1,0 +1,6 @@
+﻿  MyForm.cpp
+C:\Users\sasha\source\repos\Laboratory_work_8\Laboratory_work_8\MyForm.h(666,29): warning C4244: =: преобразование "__int64" в "long", возможна потеря данных
+C:\Users\sasha\source\repos\Laboratory_work_8\Laboratory_work_8\MyForm.h(974,13): warning C4244: инициализация: преобразование "__int64" в "long", возможна потеря данных
+C:\Users\sasha\source\repos\Laboratory_work_8\Laboratory_work_8\MyForm.h(975,13): warning C4244: инициализация: преобразование "__int64" в "long", возможна потеря данных
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Laboratory_work_8.vcxproj -> C:\Users\sasha\source\repos\Laboratory_work_8\Debug\Laboratory_work_8.exe
