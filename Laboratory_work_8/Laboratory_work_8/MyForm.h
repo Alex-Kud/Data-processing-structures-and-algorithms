@@ -26,90 +26,51 @@ namespace Laboratorywork8 {
 			if (components) delete components;
 		}
 	private: TabControl^ tabControl1;
-
 		   TabPage^ tabPage3;
 		   TabPage^ tabPage4;
-	private: System::Windows::Forms::Label^ label2;
-	private: System::Windows::Forms::Label^ label1;
-	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::DataGridView^ dataGridView3;
-	private: System::Windows::Forms::DataGridView^ dataGridView1;
-
-
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column18;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column19;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column20;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column21;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column22;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column23;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column24;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column25;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column26;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column27;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column28;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column29;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column30;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column31;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column32;
-
-
-	private: System::Windows::Forms::Label^ label5;
-	private: System::Windows::Forms::NumericUpDown^ numericUpDown1;
-	private: System::Windows::Forms::Button^ button4;
-	private: System::Windows::Forms::NumericUpDown^ numericUpDown3;
-	private: System::Windows::Forms::NumericUpDown^ numericUpDown2;
-	private: System::Windows::Forms::TextBox^ textBox1;
-	private: System::Windows::Forms::ComboBox^ comboBox1;
-	private: System::Windows::Forms::Button^ button5;
-	private: System::Windows::Forms::Label^ label6;
-	private: System::Windows::Forms::Label^ label9;
-	private: System::Windows::Forms::Label^ label8;
-	private: System::Windows::Forms::Label^ label7;
-	private: System::Windows::Forms::TextBox^ textBox2;
-
-
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column1;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column2;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column3;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column4;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column5;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column6;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column7;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column8;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column9;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column10;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	System::Windows::Forms::Label^ label2;
+	System::Windows::Forms::Label^ label1;
+	System::Windows::Forms::Button^ button1;
+	System::Windows::Forms::DataGridView^ dataGridView3;
+	System::Windows::Forms::DataGridView^ dataGridView1;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column18;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column19;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column20;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column21;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column22;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column23;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column24;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column25;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column26;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column27;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column28;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column29;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column30;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column31;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column32;
+	System::Windows::Forms::Label^ label5;
+	System::Windows::Forms::NumericUpDown^ numericUpDown1;
+	System::Windows::Forms::Button^ button4;
+	System::Windows::Forms::NumericUpDown^ numericUpDown3;
+	System::Windows::Forms::NumericUpDown^ numericUpDown2;
+	System::Windows::Forms::TextBox^ textBox1;
+	System::Windows::Forms::ComboBox^ comboBox1;
+	System::Windows::Forms::Button^ button5;
+	System::Windows::Forms::Label^ label6;
+	System::Windows::Forms::Label^ label9;
+	System::Windows::Forms::Label^ label8;
+	System::Windows::Forms::Label^ label7;
+	System::Windows::Forms::TextBox^ textBox2;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column1;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column2;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column3;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column4;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column5;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column6;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column7;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column8;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column9;
+	System::Windows::Forms::DataGridViewTextBoxColumn^ Column10;
 		   System::ComponentModel::Container^ components;
 #pragma region Windows Form Designer generated code
 		   void InitializeComponent(void) {
@@ -205,7 +166,7 @@ namespace Laboratorywork8 {
 			   this->tabPage4->Name = L"tabPage4";
 			   this->tabPage4->Size = System::Drawing::Size(1584, 878);
 			   this->tabPage4->TabIndex = 3;
-			   this->tabPage4->Text = L"Характеристики";
+			   this->tabPage4->Text = L"Г•Г Г°Г ГЄГІГҐГ°ГЁГ±ГІГЁГЄГЁ";
 			   // 
 			   // textBox2
 			   // 
@@ -225,7 +186,7 @@ namespace Laboratorywork8 {
 			   this->label9->Name = L"label9";
 			   this->label9->Size = System::Drawing::Size(66, 37);
 			   this->label9->TabIndex = 15;
-			   this->label9->Text = L"По:";
+			   this->label9->Text = L"ГЏГ®:";
 			   // 
 			   // label8
 			   // 
@@ -235,7 +196,7 @@ namespace Laboratorywork8 {
 			   this->label8->Name = L"label8";
 			   this->label8->Size = System::Drawing::Size(65, 37);
 			   this->label8->TabIndex = 14;
-			   this->label8->Text = L"Из:";
+			   this->label8->Text = L"Г€Г§:";
 			   // 
 			   // label7
 			   // 
@@ -268,7 +229,7 @@ namespace Laboratorywork8 {
 			   this->button4->Name = L"button4";
 			   this->button4->Size = System::Drawing::Size(470, 58);
 			   this->button4->TabIndex = 11;
-			   this->button4->Text = L"Вывести";
+			   this->button4->Text = L"Г‚Г»ГўГҐГ±ГІГЁ";
 			   this->button4->UseVisualStyleBackColor = true;
 			   this->button4->Click += gcnew System::EventHandler(this, &MyForm::button4_Click);
 			   // 
@@ -307,7 +268,7 @@ namespace Laboratorywork8 {
 			   this->label5->Name = L"label5";
 			   this->label5->Size = System::Drawing::Size(392, 29);
 			   this->label5->TabIndex = 7;
-			   this->label5->Text = L"Введите количество элементов:";
+			   this->label5->Text = L"Г‚ГўГҐГ¤ГЁГІГҐ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЅГ«ГҐГ¬ГҐГ­ГІГ®Гў:";
 			   // 
 			   // numericUpDown1
 			   // 
@@ -413,7 +374,7 @@ namespace Laboratorywork8 {
 			   this->label2->Name = L"label2";
 			   this->label2->Size = System::Drawing::Size(262, 29);
 			   this->label2->TabIndex = 3;
-			   this->label2->Text = L"Замер характеристик";
+			   this->label2->Text = L"Г‡Г Г¬ГҐГ° ГµГ Г°Г ГЄГІГҐГ°ГЁГ±ГІГЁГЄ";
 			   // 
 			   // label1
 			   // 
@@ -424,7 +385,7 @@ namespace Laboratorywork8 {
 			   this->label1->Name = L"label1";
 			   this->label1->Size = System::Drawing::Size(392, 37);
 			   this->label1->TabIndex = 2;
-			   this->label1->Text = L"Лабораторная работа №8";
+			   this->label1->Text = L"Г‹Г ГЎГ®Г°Г ГІГ®Г°Г­Г Гї Г°Г ГЎГ®ГІГ  В№8";
 			   // 
 			   // button1
 			   // 
@@ -433,7 +394,7 @@ namespace Laboratorywork8 {
 			   this->button1->Name = L"button1";
 			   this->button1->Size = System::Drawing::Size(630, 58);
 			   this->button1->TabIndex = 0;
-			   this->button1->Text = L"Запустить";
+			   this->button1->Text = L"Г‡Г ГЇГіГ±ГІГЁГІГј";
 			   this->button1->UseVisualStyleBackColor = true;
 			   this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			   // 
@@ -448,7 +409,7 @@ namespace Laboratorywork8 {
 			   this->tabPage3->Name = L"tabPage3";
 			   this->tabPage3->Size = System::Drawing::Size(1584, 878);
 			   this->tabPage3->TabIndex = 2;
-			   this->tabPage3->Text = L"Демонстрация";
+			   this->tabPage3->Text = L"Г„ГҐГ¬Г®Г­Г±ГІГ°Г Г¶ГЁГї";
 			   // 
 			   // button5
 			   // 
@@ -459,7 +420,7 @@ namespace Laboratorywork8 {
 			   this->button5->Name = L"button5";
 			   this->button5->Size = System::Drawing::Size(1028, 49);
 			   this->button5->TabIndex = 4;
-			   this->button5->Text = L"Сортировать";
+			   this->button5->Text = L"Г‘Г®Г°ГІГЁГ°Г®ГўГ ГІГј";
 			   this->button5->UseVisualStyleBackColor = true;
 			   this->button5->Click += gcnew System::EventHandler(this, &MyForm::button5_Click);
 			   // 
@@ -473,7 +434,7 @@ namespace Laboratorywork8 {
 			   this->label6->Name = L"label6";
 			   this->label6->Size = System::Drawing::Size(472, 37);
 			   this->label6->TabIndex = 3;
-			   this->label6->Text = L"Запуск однофазной сортировки";
+			   this->label6->Text = L"Г‡Г ГЇГіГ±ГЄ Г®Г¤Г­Г®ГґГ Г§Г­Г®Г© Г±Г®Г°ГІГЁГ°Г®ГўГЄГЁ";
 			   // 
 			   // dataGridView3
 			   // 
@@ -606,7 +567,7 @@ namespace Laboratorywork8 {
 			   this->Controls->Add(this->tabControl1);
 			   this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			   this->Name = L"MyForm";
-			   this->Text = L"Внутренняя сортировка с внешним слиянием";
+			   this->Text = L"Г‚Г­ГіГІГ°ГҐГ­Г­ГїГї Г±Г®Г°ГІГЁГ°Г®ГўГЄГ  Г± ГўГ­ГҐГёГ­ГЁГ¬ Г±Г«ГЁГїГ­ГЁГҐГ¬";
 			   this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			   this->tabControl1->ResumeLayout(false);
 			   this->tabPage4->ResumeLayout(false);
@@ -624,12 +585,12 @@ namespace Laboratorywork8 {
 #pragma endregion
 
 		   Void MyForm_Load(Object^ sender, EventArgs^ e) {
-			   ofstream writeA("a.txt", std::ios::in);		// Открыли файл для записи
-			   ofstream writeB("b.txt");							// Открыли файл для записи
-			   ofstream writeC("c.txt");							// Открыли файл для записи
-			   ofstream writeD("d.txt");							// Открыли файл для записи
-			   ofstream writeE("e.txt");							// Открыли файл для записи
-			   ofstream writeT("temp.txt");						// Открыли файл для записи
+			   ofstream writeA("a.txt", std::ios::in);		// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+			   ofstream writeB("b.txt");							// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+			   ofstream writeC("c.txt");							// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+			   ofstream writeD("d.txt");							// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+			   ofstream writeE("e.txt");							// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+			   ofstream writeT("temp.txt");						// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
 			   writeA << "e"; writeB << "e"; writeC << "e";
 			   writeD << "e"; writeE << "e"; writeT << "e";
 			   writeA.close();
@@ -642,10 +603,10 @@ namespace Laboratorywork8 {
 			   numericUpDown1->Maximum = 1000000;
 			   for (int i = 0; i < 4; ++i)
 				   dataGridView1->Rows->Add();
-			   dataGridView1->Rows[0]->HeaderCell->Value = "Время";
-			   dataGridView1->Rows[1]->HeaderCell->Value = "Чтения";
-			   dataGridView1->Rows[2]->HeaderCell->Value = "Сравнения";
-			   dataGridView1->Rows[3]->HeaderCell->Value = "Записи";
+			   dataGridView1->Rows[0]->HeaderCell->Value = "Г‚Г°ГҐГ¬Гї";
+			   dataGridView1->Rows[1]->HeaderCell->Value = "Г—ГІГҐГ­ГЁГї";
+			   dataGridView1->Rows[2]->HeaderCell->Value = "Г‘Г°Г ГўГ­ГҐГ­ГЁГї";
+			   dataGridView1->Rows[3]->HeaderCell->Value = "Г‡Г ГЇГЁГ±ГЁ";
 
 			   for (int i = 0; i < 10; ++i)
 				   dataGridView3->Rows->Add();
@@ -666,16 +627,16 @@ namespace Laboratorywork8 {
 		   size = Convert::ToInt64(numericUpDown1->Value);
 		   
 			    
-				ofstream writeA1("a1.txt");					// Открыли файл для записи
-				ofstream writeA2("a2.txt");					// Открыли файл для записи
-				ofstream writeA3("a3.txt");					// Открыли файл для записи
-				ofstream writeA4("a4.txt");					// Открыли файл для записи
-				ofstream writeA5("a5.txt");					// Открыли файл для записи
-				ofstream writeA6("a6.txt");					// Открыли файл для записи
-				ofstream writeA7("a7.txt");					// Открыли файл для записи
-				ofstream writeA8("a8.txt");					// Открыли файл для записи
-				ofstream writeA9("a9.txt");					// Открыли файл для записи
-				ofstream writeA10("a10.txt");					// Открыли файл для записи
+				ofstream writeA1("a1.txt");					// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+				ofstream writeA2("a2.txt");					// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+				ofstream writeA3("a3.txt");					// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+				ofstream writeA4("a4.txt");					// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+				ofstream writeA5("a5.txt");					// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+				ofstream writeA6("a6.txt");					// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+				ofstream writeA7("a7.txt");					// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+				ofstream writeA8("a8.txt");					// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+				ofstream writeA9("a9.txt");					// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+				ofstream writeA10("a10.txt");					// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
 				for (int j = 0; j < size; ++j) {
 					const int number = rand() % 100;
 					writeA1 << " " << number;
@@ -702,35 +663,35 @@ namespace Laboratorywork8 {
 				writeA10.close();
 			// ---------------------------------------
 			// ---------------------------------------
-			// ---------------Cортировка--------------
+			// ---------------CГ®Г°ГІГЁГ°Г®ГўГЄГ --------------
 			// ---------------------------------------
 			// ---------------------------------------
 			for (int j = 1; j < 11; ++j) {
-				int incount = 0;									// Счётчик считываний из файла
-				int compcount = 0;									// Счётчик сравнений
-				int outcount = 0;									// Счетчик записей в файл
+				int incount = 0;									// Г‘Г·ВёГІГ·ГЁГЄ Г±Г·ГЁГІГ»ГўГ Г­ГЁГ© ГЁГ§ ГґГ Г©Г«Г 
+				int compcount = 0;									// Г‘Г·ВёГІГ·ГЁГЄ Г±Г°Г ГўГ­ГҐГ­ГЁГ©
+				int outcount = 0;									// Г‘Г·ГҐГІГ·ГЁГЄ Г§Г ГЇГЁГ±ГҐГ© Гў ГґГ Г©Г«
 				string fileA = "a" + msclr::interop::marshal_as<std::string>(j.ToString()) + ".txt";
 				auto start = std::chrono::high_resolution_clock::now();
 
-				split(size * j / 100, fileA, incount, compcount, outcount);	// Разделяем файл a.txt на два файла b.txt и c.txt
-				bool file = true; // Определяем файлы записи: true - читать из b c, писать в d e, false - файл читать из d e, писать в b c
-				// i - количество элементов, которые должны быть переведены в другой файл вместе
+				split(size * j / 100, fileA, incount, compcount, outcount);	// ГђГ Г§Г¤ГҐГ«ГїГҐГ¬ ГґГ Г©Г« a.txt Г­Г  Г¤ГўГ  ГґГ Г©Г«Г  b.txt ГЁ c.txt
+				bool file = true; // ГЋГЇГ°ГҐГ¤ГҐГ«ГїГҐГ¬ ГґГ Г©Г«Г» Г§Г ГЇГЁГ±ГЁ: true - Г·ГЁГІГ ГІГј ГЁГ§ b c, ГЇГЁГ±Г ГІГј Гў d e, false - ГґГ Г©Г« Г·ГЁГІГ ГІГј ГЁГ§ d e, ГЇГЁГ±Г ГІГј Гў b c
+				// i - ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЅГ«ГҐГ¬ГҐГ­ГІГ®Гў, ГЄГ®ГІГ®Г°Г»ГҐ Г¤Г®Г«Г¦Г­Г» ГЎГ»ГІГј ГЇГҐГ°ГҐГўГҐГ¤ГҐГ­Г» Гў Г¤Г°ГіГЈГ®Г© ГґГ Г©Г« ГўГ¬ГҐГ±ГІГҐ
 				for (long i = 1; i < size / 2; i *= 2) {
-					//В зависимости от направления записи передаём файлы для чтения и записи
+					//Г‚ Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГЁ Г®ГІ Г­Г ГЇГ°Г ГўГ«ГҐГ­ГЁГї Г§Г ГЇГЁГ±ГЁ ГЇГҐГ°ГҐГ¤Г ВёГ¬ ГґГ Г©Г«Г» Г¤Г«Гї Г·ГІГҐГ­ГЁГї ГЁ Г§Г ГЇГЁГ±ГЁ
 					if (file)
-						betweenFiles(i, "b.txt", "c.txt", "d.txt", "e.txt", incount, compcount, outcount);	// Читать из b c, писать в d e
+						betweenFiles(i, "b.txt", "c.txt", "d.txt", "e.txt", incount, compcount, outcount);	// Г—ГЁГІГ ГІГј ГЁГ§ b c, ГЇГЁГ±Г ГІГј Гў d e
 					else
-						betweenFiles(i, "d.txt", "e.txt", "b.txt", "c.txt", incount, compcount, outcount);	// Читать из d e, писать в b c
-					file = !file;					// Меняем направление
+						betweenFiles(i, "d.txt", "e.txt", "b.txt", "c.txt", incount, compcount, outcount);	// Г—ГЁГІГ ГІГј ГЁГ§ d e, ГЇГЁГ±Г ГІГј Гў b c
+					file = !file;					// ГЊГҐГ­ГїГҐГ¬ Г­Г ГЇГ°Г ГўГ«ГҐГ­ГЁГҐ
 				}
 				
-				if (file)							// Теперь объединяем обратно в файл a, используя последние редактируемые файлы
-					combine(size, fileA, "b.txt", "c.txt", incount, compcount, outcount);	// Читать из b c
+				if (file)							// Г’ГҐГЇГҐГ°Гј Г®ГЎГєГҐГ¤ГЁГ­ГїГҐГ¬ Г®ГЎГ°Г ГІГ­Г® Гў ГґГ Г©Г« a, ГЁГ±ГЇГ®Г«ГјГ§ГіГї ГЇГ®Г±Г«ГҐГ¤Г­ГЁГҐ Г°ГҐГ¤Г ГЄГІГЁГ°ГіГҐГ¬Г»ГҐ ГґГ Г©Г«Г»
+					combine(size, fileA, "b.txt", "c.txt", incount, compcount, outcount);	// Г—ГЁГІГ ГІГј ГЁГ§ b c
 				else
-					combine(size, fileA, "d.txt", "e.txt", incount, compcount, outcount);	// Читать из d e
+					combine(size, fileA, "d.txt", "e.txt", incount, compcount, outcount);	// Г—ГЁГІГ ГІГј ГЁГ§ d e
 				auto finish = std::chrono::high_resolution_clock::now();
 				auto time = std::chrono::duration_cast<std::chrono::duration < double>>(finish- start);
-				// Вывод характеристик сортировки
+				// Г‚Г»ГўГ®Г¤ ГµГ Г°Г ГЄГІГҐГ°ГЁГ±ГІГЁГЄ Г±Г®Г°ГІГЁГ°Г®ГўГЄГЁ
 				dataGridView1->Rows[0]->Cells[j-1]->Value = Convert::ToString(time.count() * 10000);
 				dataGridView1->Rows[1]->Cells[j-1]->Value = incount;
 				dataGridView1->Rows[2]->Cells[j-1]->Value = compcount;
@@ -742,29 +703,29 @@ namespace Laboratorywork8 {
 			numericUpDown3->Maximum = size - 1;
 		}
 
-		// Разделение на 2 файла
+		// ГђГ Г§Г¤ГҐГ«ГҐГ­ГЁГҐ Г­Г  2 ГґГ Г©Г«Г 
 		void split(const int bufLength, string fileRead, int& incount, int& compcount, int& outcount) {
-			int* buf = new int[bufLength];			// Промежуточный массив для внутренней сортировки
-			ifstream readA(fileRead);		// Открыли файл для чтения
-			ofstream writeB("b.txt");		// Открыли файл для записи
-			ofstream writeC("c.txt");		// Открыли файл для записи
-			bool file = true;						// Определяем файл записи: true - файл b, false - файл c
-			while (!readA.eof()) {					// Пока файл не пуст, считываем числа
+			int* buf = new int[bufLength];			// ГЏГ°Г®Г¬ГҐГ¦ГіГІГ®Г·Г­Г»Г© Г¬Г Г±Г±ГЁГў Г¤Г«Гї ГўГ­ГіГІГ°ГҐГ­Г­ГҐГ© Г±Г®Г°ГІГЁГ°Г®ГўГЄГЁ
+			ifstream readA(fileRead);		// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г·ГІГҐГ­ГЁГї
+			ofstream writeB("b.txt");		// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+			ofstream writeC("c.txt");		// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+			bool file = true;						// ГЋГЇГ°ГҐГ¤ГҐГ«ГїГҐГ¬ ГґГ Г©Г« Г§Г ГЇГЁГ±ГЁ: true - ГґГ Г©Г« b, false - ГґГ Г©Г« c
+			while (!readA.eof()) {					// ГЏГ®ГЄГ  ГґГ Г©Г« Г­ГҐ ГЇГіГ±ГІ, Г±Г·ГЁГІГ»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г 
 				compcount++;
 				for (int i = 0; i < bufLength; ++i) {
 					if (readA.eof()) buf[i] = -1;
 					else {
-						readA >> buf[i];				// Считывание нового числа в массив для сортировки
+						readA >> buf[i];				// Г‘Г·ГЁГІГ»ГўГ Г­ГЁГҐ Г­Г®ГўГ®ГЈГ® Г·ГЁГ±Г«Г  Гў Г¬Г Г±Г±ГЁГў Г¤Г«Гї Г±Г®Г°ГІГЁГ°Г®ГўГЄГЁ
 						incount++;
 					}
 					compcount += 2;
 				}
-				shell(buf, bufLength, compcount);	// Сортировка массива
-				if (file)							// В зависимости от направления пишем в файл число
+				shell(buf, bufLength, compcount);	// Г‘Г®Г°ГІГЁГ°Г®ГўГЄГ  Г¬Г Г±Г±ГЁГўГ 
+				if (file)							// Г‚ Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГЁ Г®ГІ Г­Г ГЇГ°Г ГўГ«ГҐГ­ГЁГї ГЇГЁГёГҐГ¬ Гў ГґГ Г©Г« Г·ГЁГ±Г«Г®
 					for (int i = 0; i < bufLength; ++i) {
 						compcount += 2;
 						if (buf[i] != -1) {
-							writeB << " " << buf[i];	// Записываем число в файл b
+							writeB << " " << buf[i];	// Г‡Г ГЇГЁГ±Г»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г® Гў ГґГ Г©Г« b
 							outcount++;
 						}
 					}
@@ -772,219 +733,219 @@ namespace Laboratorywork8 {
 					for (int i = 0; i < bufLength; ++i){
 						compcount += 2;
 						if (buf[i] != -1) {
-							writeC << " " << buf[i];	// Записываем число в файл c
+							writeC << " " << buf[i];	// Г‡Г ГЇГЁГ±Г»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г® Гў ГґГ Г©Г« c
 							outcount++;
 						}
 					}
 				compcount++;
-				file = !file;						// Меняем направление
+				file = !file;						// ГЊГҐГ­ГїГҐГ¬ Г­Г ГЇГ°Г ГўГ«ГҐГ­ГЁГҐ
 			}
-			readA.close();							// Закрываем поток чтения
-			writeB.close();							// Закрываем поток записи
-			writeC.close();							// Закрываем поток записи
-			delete[] buf;							// Освобождение памяти
+			readA.close();							// Г‡Г ГЄГ°Г»ГўГ ГҐГ¬ ГЇГ®ГІГ®ГЄ Г·ГІГҐГ­ГЁГї
+			writeB.close();							// Г‡Г ГЄГ°Г»ГўГ ГҐГ¬ ГЇГ®ГІГ®ГЄ Г§Г ГЇГЁГ±ГЁ
+			writeC.close();							// Г‡Г ГЄГ°Г»ГўГ ГҐГ¬ ГЇГ®ГІГ®ГЄ Г§Г ГЇГЁГ±ГЁ
+			delete[] buf;							// ГЋГ±ГўГ®ГЎГ®Г¦Г¤ГҐГ­ГЁГҐ ГЇГ Г¬ГїГІГЁ
 		}
 
-		// Метод для объединения 2 файлов в методе однофазного простого слияния
+		// ГЊГҐГІГ®Г¤ Г¤Г«Гї Г®ГЎГєГҐГ¤ГЁГ­ГҐГ­ГЁГї 2 ГґГ Г©Г«Г®Гў Гў Г¬ГҐГІГ®Г¤ГҐ Г®Г¤Г­Г®ГґГ Г§Г­Г®ГЈГ® ГЇГ°Г®Г±ГІГ®ГЈГ® Г±Г«ГЁГїГ­ГЁГї
 		void combine(long len, string write, string first, string second, int& incount, int& compcount, int& outcount) {
-			ofstream writeA(write);									// Открыли файл для записи
-			ifstream readFirst(first);								// Открыли файл для чтения
-		ifstream readSecond(second);								// Открыли файл для чтения
-			//Читаем первые числа из 2 файлов
+			ofstream writeA(write);									// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+			ifstream readFirst(first);								// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г·ГІГҐГ­ГЁГї
+		ifstream readSecond(second);								// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г·ГІГҐГ­ГЁГї
+			//Г—ГЁГІГ ГҐГ¬ ГЇГҐГ°ГўГ»ГҐ Г·ГЁГ±Г«Г  ГЁГ§ 2 ГґГ Г©Г«Г®Гў
 			int fileFirst, fileSecond;
-			if (readFirst.eof()) fileFirst = -1;						// Если файл пуст, устанавливаем значение -1
+			if (readFirst.eof()) fileFirst = -1;						// Г…Г±Г«ГЁ ГґГ Г©Г« ГЇГіГ±ГІ, ГіГ±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ -1
 			else {
-				readFirst >> fileFirst;								// Иначе считываем число из файла
+				readFirst >> fileFirst;								// Г€Г­Г Г·ГҐ Г±Г·ГЁГІГ»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г® ГЁГ§ ГґГ Г©Г«Г 
 				incount++;
 			}
-			if (readSecond.eof()) fileSecond = -1;					// Если файл пуст, устанавливаем значение -1
+			if (readSecond.eof()) fileSecond = -1;					// Г…Г±Г«ГЁ ГґГ Г©Г« ГЇГіГ±ГІ, ГіГ±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ -1
 			else {
-				readSecond >> fileSecond;							// Иначе считываем число из файла
+				readSecond >> fileSecond;							// Г€Г­Г Г·ГҐ Г±Г·ГЁГІГ»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г® ГЁГ§ ГґГ Г©Г«Г 
 				incount++;
 			}
 			compcount += 2;
-			while (fileFirst != -1 || fileSecond != -1) {			// Пока оба файла не кончились
+			while (fileFirst != -1 || fileSecond != -1) {			// ГЏГ®ГЄГ  Г®ГЎГ  ГґГ Г©Г«Г  Г­ГҐ ГЄГ®Г­Г·ГЁГ«ГЁГ±Гј
 				compcount++;
-				long curFirst = len;									// Осталось обработать элементов в первой последовательности
-				long curSecond = len;								// Осталось обработать элементов во второй последовательности
-				// Пока не закончится место в последовательности или пока не достигнут конец файла
+				long curFirst = len;									// ГЋГ±ГІГ Г«Г®Г±Гј Г®ГЎГ°Г ГЎГ®ГІГ ГІГј ГЅГ«ГҐГ¬ГҐГ­ГІГ®Гў Гў ГЇГҐГ°ГўГ®Г© ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ
+				long curSecond = len;								// ГЋГ±ГІГ Г«Г®Г±Гј Г®ГЎГ°Г ГЎГ®ГІГ ГІГј ГЅГ«ГҐГ¬ГҐГ­ГІГ®Гў ГўГ® ГўГІГ®Г°Г®Г© ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ
+				// ГЏГ®ГЄГ  Г­ГҐ Г§Г ГЄГ®Г­Г·ГЁГІГ±Гї Г¬ГҐГ±ГІГ® Гў ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ ГЁГ«ГЁ ГЇГ®ГЄГ  Г­ГҐ Г¤Г®Г±ГІГЁГЈГ­ГіГІ ГЄГ®Г­ГҐГ¶ ГґГ Г©Г«Г 
 				while (curFirst != 0 && curSecond != 0 && fileFirst != -1 && fileSecond != -1) {
 					compcount++;										// while
 					compcount++;										// if
-					if (fileFirst < fileSecond) {					// Сравниваем 2 числа из 2 файлов
-						writeA << " " << fileFirst;					// Если первое меньше, то записываем его в файл a
-						outcount++;									// Увеличение счетчика записи
-						curFirst--;									// Уменьшаем остаток длины последовательности для первого файла
-						// Читаем новое число из первого файла
-						if (readFirst.eof()) fileFirst = -1;			// Если файл пуст, устанавливаем значение -1
+					if (fileFirst < fileSecond) {					// Г‘Г°Г ГўГ­ГЁГўГ ГҐГ¬ 2 Г·ГЁГ±Г«Г  ГЁГ§ 2 ГґГ Г©Г«Г®Гў
+						writeA << " " << fileFirst;					// Г…Г±Г«ГЁ ГЇГҐГ°ГўГ®ГҐ Г¬ГҐГ­ГјГёГҐ, ГІГ® Г§Г ГЇГЁГ±Г»ГўГ ГҐГ¬ ГҐГЈГ® Гў ГґГ Г©Г« a
+						outcount++;									// Г“ГўГҐГ«ГЁГ·ГҐГ­ГЁГҐ Г±Г·ГҐГІГ·ГЁГЄГ  Г§Г ГЇГЁГ±ГЁ
+						curFirst--;									// Г“Г¬ГҐГ­ГјГёГ ГҐГ¬ Г®Г±ГІГ ГІГ®ГЄ Г¤Г«ГЁГ­Г» ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ Г¤Г«Гї ГЇГҐГ°ГўГ®ГЈГ® ГґГ Г©Г«Г 
+						// Г—ГЁГІГ ГҐГ¬ Г­Г®ГўГ®ГҐ Г·ГЁГ±Г«Г® ГЁГ§ ГЇГҐГ°ГўГ®ГЈГ® ГґГ Г©Г«Г 
+						if (readFirst.eof()) fileFirst = -1;			// Г…Г±Г«ГЁ ГґГ Г©Г« ГЇГіГ±ГІ, ГіГ±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ -1
 						else {
-							readFirst >> fileFirst;					// Иначе считываем число из файла
+							readFirst >> fileFirst;					// Г€Г­Г Г·ГҐ Г±Г·ГЁГІГ»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г® ГЁГ§ ГґГ Г©Г«Г 
 							incount++;
 						}
 						compcount++;
 					}
 					else {
-						writeA << " " << fileSecond;					// Если второе меньше, то записываем его в файл a
-						outcount++;									// Увеличение счетчика записи
-						curSecond--;									// Уменьшаем остаток длины последовательности для второго файла
-						// Читаем новое число из второго файла
-						if (readSecond.eof()) fileSecond = -1;		// Если файл пуст, устанавливаем значение -1
+						writeA << " " << fileSecond;					// Г…Г±Г«ГЁ ГўГІГ®Г°Г®ГҐ Г¬ГҐГ­ГјГёГҐ, ГІГ® Г§Г ГЇГЁГ±Г»ГўГ ГҐГ¬ ГҐГЈГ® Гў ГґГ Г©Г« a
+						outcount++;									// Г“ГўГҐГ«ГЁГ·ГҐГ­ГЁГҐ Г±Г·ГҐГІГ·ГЁГЄГ  Г§Г ГЇГЁГ±ГЁ
+						curSecond--;									// Г“Г¬ГҐГ­ГјГёГ ГҐГ¬ Г®Г±ГІГ ГІГ®ГЄ Г¤Г«ГЁГ­Г» ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ Г¤Г«Гї ГўГІГ®Г°Г®ГЈГ® ГґГ Г©Г«Г 
+						// Г—ГЁГІГ ГҐГ¬ Г­Г®ГўГ®ГҐ Г·ГЁГ±Г«Г® ГЁГ§ ГўГІГ®Г°Г®ГЈГ® ГґГ Г©Г«Г 
+						if (readSecond.eof()) fileSecond = -1;		// Г…Г±Г«ГЁ ГґГ Г©Г« ГЇГіГ±ГІ, ГіГ±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ -1
 						else {
-							readSecond >> fileSecond;				// Иначе считываем число из файла
+							readSecond >> fileSecond;				// Г€Г­Г Г·ГҐ Г±Г·ГЁГІГ»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г® ГЁГ§ ГґГ Г©Г«Г 
 							incount++;
 						}
 						compcount++;
 					}
 				}
-				// Дописываем данные из первого файла, если второй закончился, или достигнут лимит чисел в последовательности из второго
+				// Г„Г®ГЇГЁГ±Г»ГўГ ГҐГ¬ Г¤Г Г­Г­Г»ГҐ ГЁГ§ ГЇГҐГ°ГўГ®ГЈГ® ГґГ Г©Г«Г , ГҐГ±Г«ГЁ ГўГІГ®Г°Г®Г© Г§Г ГЄГ®Г­Г·ГЁГ«Г±Гї, ГЁГ«ГЁ Г¤Г®Г±ГІГЁГЈГ­ГіГІ Г«ГЁГ¬ГЁГІ Г·ГЁГ±ГҐГ« Гў ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ ГЁГ§ ГўГІГ®Г°Г®ГЈГ®
 				while (curFirst != 0 && fileFirst != -1) {
 					compcount++;
 					writeA << " " << fileFirst;
-					outcount++;									// Увеличение счетчика записи
-					curFirst--;										// Уменьшаем остаток длины последовательности для первого файла
-					// Читаем новое число из первого файла
-					if (readFirst.eof()) fileFirst = -1;			// Если файл пуст, устанавливаем значение -1
+					outcount++;									// Г“ГўГҐГ«ГЁГ·ГҐГ­ГЁГҐ Г±Г·ГҐГІГ·ГЁГЄГ  Г§Г ГЇГЁГ±ГЁ
+					curFirst--;										// Г“Г¬ГҐГ­ГјГёГ ГҐГ¬ Г®Г±ГІГ ГІГ®ГЄ Г¤Г«ГЁГ­Г» ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ Г¤Г«Гї ГЇГҐГ°ГўГ®ГЈГ® ГґГ Г©Г«Г 
+					// Г—ГЁГІГ ГҐГ¬ Г­Г®ГўГ®ГҐ Г·ГЁГ±Г«Г® ГЁГ§ ГЇГҐГ°ГўГ®ГЈГ® ГґГ Г©Г«Г 
+					if (readFirst.eof()) fileFirst = -1;			// Г…Г±Г«ГЁ ГґГ Г©Г« ГЇГіГ±ГІ, ГіГ±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ -1
 					else {
-						readFirst >> fileFirst;					// Иначе считываем число из файла
+						readFirst >> fileFirst;					// Г€Г­Г Г·ГҐ Г±Г·ГЁГІГ»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г® ГЁГ§ ГґГ Г©Г«Г 
 						incount++;
 					}
 					compcount++;
 				}
-				// Дописываем данные из второго файла, если первый закончился, или достигнут лимит чисел в последовательности из первого
+				// Г„Г®ГЇГЁГ±Г»ГўГ ГҐГ¬ Г¤Г Г­Г­Г»ГҐ ГЁГ§ ГўГІГ®Г°Г®ГЈГ® ГґГ Г©Г«Г , ГҐГ±Г«ГЁ ГЇГҐГ°ГўГ»Г© Г§Г ГЄГ®Г­Г·ГЁГ«Г±Гї, ГЁГ«ГЁ Г¤Г®Г±ГІГЁГЈГ­ГіГІ Г«ГЁГ¬ГЁГІ Г·ГЁГ±ГҐГ« Гў ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ ГЁГ§ ГЇГҐГ°ГўГ®ГЈГ®
 				while (curSecond != 0 && fileSecond != -1) {
 					compcount++;
 					writeA << " " << fileSecond;
-					outcount++;									// Увеличение счетчика записи
-					curSecond--;									// Уменьшаем остаток длины последовательности для второгофайла
-					// Читаем новое число из второго файла
-					if (readSecond.eof()) fileSecond = -1;			// Если файл пуст, устанавливаем значение -1
+					outcount++;									// Г“ГўГҐГ«ГЁГ·ГҐГ­ГЁГҐ Г±Г·ГҐГІГ·ГЁГЄГ  Г§Г ГЇГЁГ±ГЁ
+					curSecond--;									// Г“Г¬ГҐГ­ГјГёГ ГҐГ¬ Г®Г±ГІГ ГІГ®ГЄ Г¤Г«ГЁГ­Г» ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ Г¤Г«Гї ГўГІГ®Г°Г®ГЈГ®ГґГ Г©Г«Г 
+					// Г—ГЁГІГ ГҐГ¬ Г­Г®ГўГ®ГҐ Г·ГЁГ±Г«Г® ГЁГ§ ГўГІГ®Г°Г®ГЈГ® ГґГ Г©Г«Г 
+					if (readSecond.eof()) fileSecond = -1;			// Г…Г±Г«ГЁ ГґГ Г©Г« ГЇГіГ±ГІ, ГіГ±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ -1
 					else {
-						readSecond >> fileSecond;					// Иначе считываем число из файла
+						readSecond >> fileSecond;					// Г€Г­Г Г·ГҐ Г±Г·ГЁГІГ»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г® ГЁГ§ ГґГ Г©Г«Г 
 						incount++;
 					}
 					compcount++;
 				}
 			}
-			writeA.close();											// Закрываем поток записи
-			readFirst.close();										// Закрываем поток чтения
-			readFirst.close();										// Закрываем поток чтения
+			writeA.close();											// Г‡Г ГЄГ°Г»ГўГ ГҐГ¬ ГЇГ®ГІГ®ГЄ Г§Г ГЇГЁГ±ГЁ
+			readFirst.close();										// Г‡Г ГЄГ°Г»ГўГ ГҐГ¬ ГЇГ®ГІГ®ГЄ Г·ГІГҐГ­ГЁГї
+			readFirst.close();										// Г‡Г ГЄГ°Г»ГўГ ГҐГ¬ ГЇГ®ГІГ®ГЄ Г·ГІГҐГ­ГЁГї
 		}
 
-		// Перемещаем данные в файлах в методе простого слияния. Принимает имена файлов для чтения и записи, а также длину цепочки
+		// ГЏГҐГ°ГҐГ¬ГҐГ№Г ГҐГ¬ Г¤Г Г­Г­Г»ГҐ Гў ГґГ Г©Г«Г Гµ Гў Г¬ГҐГІГ®Г¤ГҐ ГЇГ°Г®Г±ГІГ®ГЈГ® Г±Г«ГЁГїГ­ГЁГї. ГЏГ°ГЁГ­ГЁГ¬Г ГҐГІ ГЁГ¬ГҐГ­Г  ГґГ Г©Г«Г®Гў Г¤Г«Гї Г·ГІГҐГ­ГЁГї ГЁ Г§Г ГЇГЁГ±ГЁ, Г  ГІГ ГЄГ¦ГҐ Г¤Г«ГЁГ­Гі Г¶ГҐГЇГ®Г·ГЄГЁ
 		void betweenFiles(long len, string firstRead, string secondRead, string firstWrite, string secondWrite, int& incount, int& compcount, int& outcount) {
-			ifstream readFirst(firstRead);							// Открыли файл для чтения
-			ifstream readSecond(secondRead);							// Открыли файл для чтения
-			ofstream writeFirst(firstWrite);							// Открыли файл для записи
-			ofstream writeSecond(secondWrite);						// Открыли файл для записи
-			bool file = true;										// Переменная для определения файлов для записи
+			ifstream readFirst(firstRead);							// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г·ГІГҐГ­ГЁГї
+			ifstream readSecond(secondRead);							// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г·ГІГҐГ­ГЁГї
+			ofstream writeFirst(firstWrite);							// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+			ofstream writeSecond(secondWrite);						// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
+			bool file = true;										// ГЏГҐГ°ГҐГ¬ГҐГ­Г­Г Гї Г¤Г«Гї Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГї ГґГ Г©Г«Г®Гў Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
 			int fileFirst, fileSecond;
-			if (readFirst.eof()) fileFirst = -1;						// Если файл пуст, устанавливаем значение -1
+			if (readFirst.eof()) fileFirst = -1;						// Г…Г±Г«ГЁ ГґГ Г©Г« ГЇГіГ±ГІ, ГіГ±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ -1
 			else {
-				readFirst >> fileFirst;								// Иначе считываем число из файла
+				readFirst >> fileFirst;								// Г€Г­Г Г·ГҐ Г±Г·ГЁГІГ»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г® ГЁГ§ ГґГ Г©Г«Г 
 				incount++;
 			}
-			if (readSecond.eof()) fileSecond = -1;					// Если файл пуст, устанавливаем значение -1
+			if (readSecond.eof()) fileSecond = -1;					// Г…Г±Г«ГЁ ГґГ Г©Г« ГЇГіГ±ГІ, ГіГ±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ -1
 			else {
-				readSecond >> fileSecond;							// Иначе считываем число из файла
+				readSecond >> fileSecond;							// Г€Г­Г Г·ГҐ Г±Г·ГЁГІГ»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г® ГЁГ§ ГґГ Г©Г«Г 
 				incount++;
 			}
 			compcount += 2;
-			while (fileFirst != -1 || fileSecond != -1) {			// Пока оба файла не кончились
+			while (fileFirst != -1 || fileSecond != -1) {			// ГЏГ®ГЄГ  Г®ГЎГ  ГґГ Г©Г«Г  Г­ГҐ ГЄГ®Г­Г·ГЁГ«ГЁГ±Гј
 				compcount++;
-				//Выставляем длину для цепочек
+				//Г‚Г»Г±ГІГ ГўГ«ГїГҐГ¬ Г¤Г«ГЁГ­Гі Г¤Г«Гї Г¶ГҐГЇГ®Г·ГҐГЄ
 				long curFirst = len;
 				long curSecond = len;
-				// Пока не закончится место в последовательности или пока не достигнут конец файла
+				// ГЏГ®ГЄГ  Г­ГҐ Г§Г ГЄГ®Г­Г·ГЁГІГ±Гї Г¬ГҐГ±ГІГ® Гў ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ ГЁГ«ГЁ ГЇГ®ГЄГ  Г­ГҐ Г¤Г®Г±ГІГЁГЈГ­ГіГІ ГЄГ®Г­ГҐГ¶ ГґГ Г©Г«Г 
 				while (curFirst != 0 && curSecond != 0 && fileFirst != -1 && fileSecond != -1) {
 					compcount++;										// while
 					compcount++;										// if
-					if (fileFirst < fileSecond) {					// Сравниваем 2 числа из 2 файлов
-						// Если первое меньше, то записываем его в файл в зависимости от направления
+					if (fileFirst < fileSecond) {					// Г‘Г°Г ГўГ­ГЁГўГ ГҐГ¬ 2 Г·ГЁГ±Г«Г  ГЁГ§ 2 ГґГ Г©Г«Г®Гў
+						// Г…Г±Г«ГЁ ГЇГҐГ°ГўГ®ГҐ Г¬ГҐГ­ГјГёГҐ, ГІГ® Г§Г ГЇГЁГ±Г»ГўГ ГҐГ¬ ГҐГЈГ® Гў ГґГ Г©Г« Гў Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГЁ Г®ГІ Г­Г ГЇГ°Г ГўГ«ГҐГ­ГЁГї
 						if (file) writeFirst << " " << fileFirst;
 						else writeSecond << " " << fileFirst;
-						outcount++;									// Увеличение счетчика записи
+						outcount++;									// Г“ГўГҐГ«ГЁГ·ГҐГ­ГЁГҐ Г±Г·ГҐГІГ·ГЁГЄГ  Г§Г ГЇГЁГ±ГЁ
 						compcount++;
-						curFirst--;										// Уменьшаем остаток длины последовательности для первого файла
-						// Читаем новое число из первого файла
-						if (readFirst.eof()) fileFirst = -1;				// Если файл пуст, устанавливаем значение -1
+						curFirst--;										// Г“Г¬ГҐГ­ГјГёГ ГҐГ¬ Г®Г±ГІГ ГІГ®ГЄ Г¤Г«ГЁГ­Г» ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ Г¤Г«Гї ГЇГҐГ°ГўГ®ГЈГ® ГґГ Г©Г«Г 
+						// Г—ГЁГІГ ГҐГ¬ Г­Г®ГўГ®ГҐ Г·ГЁГ±Г«Г® ГЁГ§ ГЇГҐГ°ГўГ®ГЈГ® ГґГ Г©Г«Г 
+						if (readFirst.eof()) fileFirst = -1;				// Г…Г±Г«ГЁ ГґГ Г©Г« ГЇГіГ±ГІ, ГіГ±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ -1
 						else {
-							readFirst >> fileFirst;						// Иначе считываем число из файла
-							incount++;									// Увеличение счетчика чтений
+							readFirst >> fileFirst;						// Г€Г­Г Г·ГҐ Г±Г·ГЁГІГ»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г® ГЁГ§ ГґГ Г©Г«Г 
+							incount++;									// Г“ГўГҐГ«ГЁГ·ГҐГ­ГЁГҐ Г±Г·ГҐГІГ·ГЁГЄГ  Г·ГІГҐГ­ГЁГ©
 						}
 						compcount++;
 					}
 					else {
-						// Если второе меньше, то записываем его в файл в зависимости от направления
+						// Г…Г±Г«ГЁ ГўГІГ®Г°Г®ГҐ Г¬ГҐГ­ГјГёГҐ, ГІГ® Г§Г ГЇГЁГ±Г»ГўГ ГҐГ¬ ГҐГЈГ® Гў ГґГ Г©Г« Гў Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГЁ Г®ГІ Г­Г ГЇГ°Г ГўГ«ГҐГ­ГЁГї
 						if (file) writeFirst << " " << fileSecond;
 						else writeSecond << " " << fileSecond;
-						outcount++;									// Увеличение счетчика записи
+						outcount++;									// Г“ГўГҐГ«ГЁГ·ГҐГ­ГЁГҐ Г±Г·ГҐГІГ·ГЁГЄГ  Г§Г ГЇГЁГ±ГЁ
 						compcount++;
-						curSecond--;										// Уменьшаем остаток длины последовательности для второго файла
-						// Читаем новое число из первого файла
-						if (readSecond.eof()) fileSecond = -1;			// Если файл пуст, устанавливаем значение -1
+						curSecond--;										// Г“Г¬ГҐГ­ГјГёГ ГҐГ¬ Г®Г±ГІГ ГІГ®ГЄ Г¤Г«ГЁГ­Г» ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ Г¤Г«Гї ГўГІГ®Г°Г®ГЈГ® ГґГ Г©Г«Г 
+						// Г—ГЁГІГ ГҐГ¬ Г­Г®ГўГ®ГҐ Г·ГЁГ±Г«Г® ГЁГ§ ГЇГҐГ°ГўГ®ГЈГ® ГґГ Г©Г«Г 
+						if (readSecond.eof()) fileSecond = -1;			// Г…Г±Г«ГЁ ГґГ Г©Г« ГЇГіГ±ГІ, ГіГ±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ -1
 						else {
-							readSecond >> fileSecond;					// Иначе считываем число из файла
-							incount++;									// Увеличение счетчика чтений
+							readSecond >> fileSecond;					// Г€Г­Г Г·ГҐ Г±Г·ГЁГІГ»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г® ГЁГ§ ГґГ Г©Г«Г 
+							incount++;									// Г“ГўГҐГ«ГЁГ·ГҐГ­ГЁГҐ Г±Г·ГҐГІГ·ГЁГЄГ  Г·ГІГҐГ­ГЁГ©
 						}
 						compcount++;
 					}
 				}
-				// Дописываем данные из первого файла, если второй закончился, или достигнут лимит чисел в последовательности из второго
+				// Г„Г®ГЇГЁГ±Г»ГўГ ГҐГ¬ Г¤Г Г­Г­Г»ГҐ ГЁГ§ ГЇГҐГ°ГўГ®ГЈГ® ГґГ Г©Г«Г , ГҐГ±Г«ГЁ ГўГІГ®Г°Г®Г© Г§Г ГЄГ®Г­Г·ГЁГ«Г±Гї, ГЁГ«ГЁ Г¤Г®Г±ГІГЁГЈГ­ГіГІ Г«ГЁГ¬ГЁГІ Г·ГЁГ±ГҐГ« Гў ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ ГЁГ§ ГўГІГ®Г°Г®ГЈГ®
 				while (curFirst != 0 && fileFirst != -1) {
 					compcount++;
 					if (file) writeFirst << " " << fileFirst;
 					else writeSecond << " " << fileFirst;
-					outcount++;									// Увеличение счетчика записи
+					outcount++;									// Г“ГўГҐГ«ГЁГ·ГҐГ­ГЁГҐ Г±Г·ГҐГІГ·ГЁГЄГ  Г§Г ГЇГЁГ±ГЁ
 					compcount++;
-					curFirst--;										// Уменьшаем остаток длины последовательности для первого файла
-					// Читаем новое число из первого файла
-					if (readFirst.eof()) fileFirst = -1;			// Если файл пуст, устанавливаем значение -1
+					curFirst--;										// Г“Г¬ГҐГ­ГјГёГ ГҐГ¬ Г®Г±ГІГ ГІГ®ГЄ Г¤Г«ГЁГ­Г» ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ Г¤Г«Гї ГЇГҐГ°ГўГ®ГЈГ® ГґГ Г©Г«Г 
+					// Г—ГЁГІГ ГҐГ¬ Г­Г®ГўГ®ГҐ Г·ГЁГ±Г«Г® ГЁГ§ ГЇГҐГ°ГўГ®ГЈГ® ГґГ Г©Г«Г 
+					if (readFirst.eof()) fileFirst = -1;			// Г…Г±Г«ГЁ ГґГ Г©Г« ГЇГіГ±ГІ, ГіГ±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ -1
 					else {
-						readFirst >> fileFirst;					// Иначе считываем число из файла
-						incount++;									// Увеличение счетчика чтений
+						readFirst >> fileFirst;					// Г€Г­Г Г·ГҐ Г±Г·ГЁГІГ»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г® ГЁГ§ ГґГ Г©Г«Г 
+						incount++;									// Г“ГўГҐГ«ГЁГ·ГҐГ­ГЁГҐ Г±Г·ГҐГІГ·ГЁГЄГ  Г·ГІГҐГ­ГЁГ©
 					}
 					compcount++;
 				}
-				// Дописываем данные из второго файла, если первый закончился, или достигнут лимит чисел в последовательности из первого
+				// Г„Г®ГЇГЁГ±Г»ГўГ ГҐГ¬ Г¤Г Г­Г­Г»ГҐ ГЁГ§ ГўГІГ®Г°Г®ГЈГ® ГґГ Г©Г«Г , ГҐГ±Г«ГЁ ГЇГҐГ°ГўГ»Г© Г§Г ГЄГ®Г­Г·ГЁГ«Г±Гї, ГЁГ«ГЁ Г¤Г®Г±ГІГЁГЈГ­ГіГІ Г«ГЁГ¬ГЁГІ Г·ГЁГ±ГҐГ« Гў ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ ГЁГ§ ГЇГҐГ°ГўГ®ГЈГ®
 				while (curSecond != 0 && fileSecond != -1) {
 					compcount++;
 					if (file) writeFirst << " " << fileSecond;
 					else writeSecond << " " << fileSecond;
-					outcount++;									// Увеличение счетчика записи
+					outcount++;									// Г“ГўГҐГ«ГЁГ·ГҐГ­ГЁГҐ Г±Г·ГҐГІГ·ГЁГЄГ  Г§Г ГЇГЁГ±ГЁ
 					compcount++;
-					curSecond--;										// Уменьшаем остаток длины последовательности для второгофайла
-					// Читаем новое число из второго файла
-					if (readSecond.eof()) fileSecond = -1;			// Если файл пуст, устанавливаем значение -1
+					curSecond--;										// Г“Г¬ГҐГ­ГјГёГ ГҐГ¬ Г®Г±ГІГ ГІГ®ГЄ Г¤Г«ГЁГ­Г» ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г®Г±ГІГЁ Г¤Г«Гї ГўГІГ®Г°Г®ГЈГ®ГґГ Г©Г«Г 
+					// Г—ГЁГІГ ГҐГ¬ Г­Г®ГўГ®ГҐ Г·ГЁГ±Г«Г® ГЁГ§ ГўГІГ®Г°Г®ГЈГ® ГґГ Г©Г«Г 
+					if (readSecond.eof()) fileSecond = -1;			// Г…Г±Г«ГЁ ГґГ Г©Г« ГЇГіГ±ГІ, ГіГ±ГІГ Г­Г ГўГ«ГЁГўГ ГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ -1
 					else {
-						readSecond >> fileSecond;					// Иначе считываем число из файла
-						incount++;									// Увеличение счетчика чтений
+						readSecond >> fileSecond;					// Г€Г­Г Г·ГҐ Г±Г·ГЁГІГ»ГўГ ГҐГ¬ Г·ГЁГ±Г«Г® ГЁГ§ ГґГ Г©Г«Г 
+						incount++;									// Г“ГўГҐГ«ГЁГ·ГҐГ­ГЁГҐ Г±Г·ГҐГІГ·ГЁГЄГ  Г·ГІГҐГ­ГЁГ©
 					}
 					compcount++;
 				}
-				file = !file;										// Меняем направление
+				file = !file;										// ГЊГҐГ­ГїГҐГ¬ Г­Г ГЇГ°Г ГўГ«ГҐГ­ГЁГҐ
 			}
-			readFirst.close();										// Закрываем поток чтения
-			readSecond.close();										// Закрываем поток чтения
-			writeFirst.close();										// Закрываем поток записи
-			writeSecond.close();										// Закрываем поток записи
+			readFirst.close();										// Г‡Г ГЄГ°Г»ГўГ ГҐГ¬ ГЇГ®ГІГ®ГЄ Г·ГІГҐГ­ГЁГї
+			readSecond.close();										// Г‡Г ГЄГ°Г»ГўГ ГҐГ¬ ГЇГ®ГІГ®ГЄ Г·ГІГҐГ­ГЁГї
+			writeFirst.close();										// Г‡Г ГЄГ°Г»ГўГ ГҐГ¬ ГЇГ®ГІГ®ГЄ Г§Г ГЇГЁГ±ГЁ
+			writeSecond.close();										// Г‡Г ГЄГ°Г»ГўГ ГҐГ¬ ГЇГ®ГІГ®ГЄ Г§Г ГЇГЁГ±ГЁ
 		}
 
-		// Вывод части файла
+		// Г‚Г»ГўГ®Г¤ Г·Г Г±ГІГЁ ГґГ Г©Г«Г 
 		Void button4_Click(Object^ sender, EventArgs^ e) {
 			long min = Convert::ToInt64(numericUpDown2->Value);
 			long max = Convert::ToInt64(numericUpDown3->Value);
 			if (max < min) {
-				textBox1->Text = "Я ругаюсь. Ты накосячил";
+				textBox1->Text = "Гџ Г°ГіГЈГ ГѕГ±Гј. Г’Г» Г­Г ГЄГ®Г±ГїГ·ГЁГ«";
 				return;
 			}
 			string path = msclr::interop::marshal_as<std::string>(comboBox1->SelectedItem->ToString());
-			ifstream readF(path);		// Открыли файл для чтения
-			ifstream readT("temp.txt");		// Открыли файл для чтения
+			ifstream readF(path);		// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г·ГІГҐГ­ГЁГї
+			ifstream readT("temp.txt");		// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г·ГІГҐГ­ГЁГї
 			ofstream writeT("temp.txt");
 			long temp = getLengthFile(path);
 			for (int i = 0; i < temp; ++i) {
-				int number;							// Новое число
-				readF >> number;					// Считывание нового числа
+				int number;							// ГЌГ®ГўГ®ГҐ Г·ГЁГ±Г«Г®
+				readF >> number;					// Г‘Г·ГЁГІГ»ГўГ Г­ГЁГҐ Г­Г®ГўГ®ГЈГ® Г·ГЁГ±Г«Г 
 				writeT << " " << number;
 			}
 			readF.close();
@@ -992,8 +953,8 @@ namespace Laboratorywork8 {
 			ofstream writeF(path);
 			textBox1->Text = " ";
 			for (int i = 0; i < temp; ++i) {
-				int number;							// Новое число
-				readT >> number;					// Считывание нового числа
+				int number;							// ГЌГ®ГўГ®ГҐ Г·ГЁГ±Г«Г®
+				readT >> number;					// Г‘Г·ГЁГІГ»ГўГ Г­ГЁГҐ Г­Г®ГўГ®ГЈГ® Г·ГЁГ±Г«Г 
 				writeF << " " << number;
 				if (i >= min && i <= max)
 					textBox1->Text += number + " ";
@@ -1004,12 +965,12 @@ namespace Laboratorywork8 {
 
 		int getLengthFile(string path) {
 			int length = 0;
-			ifstream readF(path);		// Открыли файл для чтения
-			ifstream readT("temp.txt");		// Открыли файл для чтения
+			ifstream readF(path);		// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г·ГІГҐГ­ГЁГї
+			ifstream readT("temp.txt");		// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г·ГІГҐГ­ГЁГї
 			ofstream writeT("temp.txt");
 			while (!readF.eof()) {
-				int number;							// Новое число
-				readF >> number;					// Считывание нового числа
+				int number;							// ГЌГ®ГўГ®ГҐ Г·ГЁГ±Г«Г®
+				readF >> number;					// Г‘Г·ГЁГІГ»ГўГ Г­ГЁГҐ Г­Г®ГўГ®ГЈГ® Г·ГЁГ±Г«Г 
 				writeT << " " << number;
 				length++;
 			}
@@ -1017,96 +978,96 @@ namespace Laboratorywork8 {
 			writeT.close();
 			ofstream writeF(path);
 			while (!readT.eof()) {
-				int number;							// Новое число
-				readT >> number;					// Считывание нового числа
+				int number;							// ГЌГ®ГўГ®ГҐ Г·ГЁГ±Г«Г®
+				readT >> number;					// Г‘Г·ГЁГІГ»ГўГ Г­ГЁГҐ Г­Г®ГўГ®ГЈГ® Г·ГЁГ±Г«Г 
 				writeF << " " << number;
 			}
 			return length;
 		}
 
 		void printStr(string path, int row, DataGridView^ data) {
-			ifstream readF(path);		// Открыли файл для чтения
-			ifstream readT("temp.txt");		// Открыли файл для чтения
+			ifstream readF(path);		// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г·ГІГҐГ­ГЁГї
+			ifstream readT("temp.txt");		// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г·ГІГҐГ­ГЁГї
 			ofstream writeT("temp.txt");
 			long length = getLengthFile(path);
 			for (int j = 0; j < length; ++j) {
-				int number;							// Новое число
-				readF >> number;					// Считывание нового числа
+				int number;							// ГЌГ®ГўГ®ГҐ Г·ГЁГ±Г«Г®
+				readF >> number;					// Г‘Г·ГЁГІГ»ГўГ Г­ГЁГҐ Г­Г®ГўГ®ГЈГ® Г·ГЁГ±Г«Г 
 				writeT << " " << number;
 			}
 			readF.close();
 			writeT.close();
 			ofstream writeF(path);
 			for (int j = 0; j < length; ++j) {
-				int number;							// Новое число
-				readT >> number;					// Считывание нового числа
+				int number;							// ГЌГ®ГўГ®ГҐ Г·ГЁГ±Г«Г®
+				readT >> number;					// Г‘Г·ГЁГІГ»ГўГ Г­ГЁГҐ Г­Г®ГўГ®ГЈГ® Г·ГЁГ±Г«Г 
 				writeF << " " << number;
 				data->Rows[row]->Cells[j]->Value = number;
 			}
 			readT.close();
 			writeF.close();
 		}
-		// Итеративная демонстрация алгоритма однофазной сортировки
+		// Г€ГІГҐГ°Г ГІГЁГўГ­Г Гї Г¤ГҐГ¬Г®Г­Г±ГІГ°Г Г¶ГЁГї Г Г«ГЈГ®Г°ГЁГІГ¬Г  Г®Г¤Г­Г®ГґГ Г§Г­Г®Г© Г±Г®Г°ГІГЁГ°Г®ГўГЄГЁ
 		Void button5_Click(Object^ sender, EventArgs^ e) {
 			int size_demo = 13;
-			ofstream writeA("a.txt");		// Открыли файл для записи
+			ofstream writeA("a.txt");		// ГЋГІГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
 			for (int i = 0; i < size_demo; ++i)
 				writeA << " " << rand() % 100;
-			writeA.close();							// Закрыли файл для записи
+			writeA.close();							// Г‡Г ГЄГ°Г»Г«ГЁ ГґГ Г©Г« Г¤Г«Гї Г§Г ГЇГЁГ±ГЁ
 
-			int incount = 0;									// Счётчик считываний из файла
-			int compcount = 0;									// Счётчик сравнений
-			int outcount = 0;									// Счетчик записей в файл
-			int row = 0;										// Номер строки для вывода
+			int incount = 0;									// Г‘Г·ВёГІГ·ГЁГЄ Г±Г·ГЁГІГ»ГўГ Г­ГЁГ© ГЁГ§ ГґГ Г©Г«Г 
+			int compcount = 0;									// Г‘Г·ВёГІГ·ГЁГЄ Г±Г°Г ГўГ­ГҐГ­ГЁГ©
+			int outcount = 0;									// Г‘Г·ГҐГІГ·ГЁГЄ Г§Г ГЇГЁГ±ГҐГ© Гў ГґГ Г©Г«
+			int row = 0;										// ГЌГ®Г¬ГҐГ° Г±ГІГ°Г®ГЄГЁ Г¤Г«Гї ГўГ»ГўГ®Г¤Г 
 
 			printStr("a.txt", row, dataGridView3); row++;
-			split(3, "a.txt", incount, compcount, outcount);		// Разделяем файл a.txt на два файла b.txt и c.txt
+			split(3, "a.txt", incount, compcount, outcount);		// ГђГ Г§Г¤ГҐГ«ГїГҐГ¬ ГґГ Г©Г« a.txt Г­Г  Г¤ГўГ  ГґГ Г©Г«Г  b.txt ГЁ c.txt
 			printStr("b.txt", row, dataGridView3); row++;
 			printStr("c.txt", row, dataGridView3); row++;
-			bool file = true;								// Определяем файлы записи: true - читать из b c, писать в d e, false - файл читать из d e, писать в b c
-			// i - количество элементов, которые должны быть переведены в другой файл вместе
+			bool file = true;								// ГЋГЇГ°ГҐГ¤ГҐГ«ГїГҐГ¬ ГґГ Г©Г«Г» Г§Г ГЇГЁГ±ГЁ: true - Г·ГЁГІГ ГІГј ГЁГ§ b c, ГЇГЁГ±Г ГІГј Гў d e, false - ГґГ Г©Г« Г·ГЁГІГ ГІГј ГЁГ§ d e, ГЇГЁГ±Г ГІГј Гў b c
+			// i - ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЅГ«ГҐГ¬ГҐГ­ГІГ®Гў, ГЄГ®ГІГ®Г°Г»ГҐ Г¤Г®Г«Г¦Г­Г» ГЎГ»ГІГј ГЇГҐГ°ГҐГўГҐГ¤ГҐГ­Г» Гў Г¤Г°ГіГЈГ®Г© ГґГ Г©Г« ГўГ¬ГҐГ±ГІГҐ
 			for (long i = 1; i < size_demo / 2; i *= 2) {
-				//В зависимости от направления записи передаём файлы для чтения и записи
+				//Г‚ Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГЁ Г®ГІ Г­Г ГЇГ°Г ГўГ«ГҐГ­ГЁГї Г§Г ГЇГЁГ±ГЁ ГЇГҐГ°ГҐГ¤Г ВёГ¬ ГґГ Г©Г«Г» Г¤Г«Гї Г·ГІГҐГ­ГЁГї ГЁ Г§Г ГЇГЁГ±ГЁ
 				if (file) {
-					betweenFiles(i, "b.txt", "c.txt", "d.txt", "e.txt", incount, compcount, outcount);	// Читать из b c, писать в d e
+					betweenFiles(i, "b.txt", "c.txt", "d.txt", "e.txt", incount, compcount, outcount);	// Г—ГЁГІГ ГІГј ГЁГ§ b c, ГЇГЁГ±Г ГІГј Гў d e
 					printStr("d.txt", row, dataGridView3); row++;
 					printStr("e.txt", row, dataGridView3); row++;
 				}
 				else {
-					betweenFiles(i, "d.txt", "e.txt", "b.txt", "c.txt", incount, compcount, outcount);	// Читать из d e, писать в b c
+					betweenFiles(i, "d.txt", "e.txt", "b.txt", "c.txt", incount, compcount, outcount);	// Г—ГЁГІГ ГІГј ГЁГ§ d e, ГЇГЁГ±Г ГІГј Гў b c
 					printStr("b.txt", row, dataGridView3); row++;
 					printStr("c.txt", row, dataGridView3); row++;
 				}
-				file = !file;								// Меняем направление
+				file = !file;								// ГЊГҐГ­ГїГҐГ¬ Г­Г ГЇГ°Г ГўГ«ГҐГ­ГЁГҐ
 			}
-			if (file)										// Теперь объединяем обратно в файл a, используя последние редактируемые файлы
-				combine(size_demo, "a.txt", "b.txt", "c.txt", incount, compcount, outcount);	// Читать из b c
+			if (file)										// Г’ГҐГЇГҐГ°Гј Г®ГЎГєГҐГ¤ГЁГ­ГїГҐГ¬ Г®ГЎГ°Г ГІГ­Г® Гў ГґГ Г©Г« a, ГЁГ±ГЇГ®Г«ГјГ§ГіГї ГЇГ®Г±Г«ГҐГ¤Г­ГЁГҐ Г°ГҐГ¤Г ГЄГІГЁГ°ГіГҐГ¬Г»ГҐ ГґГ Г©Г«Г»
+				combine(size_demo, "a.txt", "b.txt", "c.txt", incount, compcount, outcount);	// Г—ГЁГІГ ГІГј ГЁГ§ b c
 			else
-				combine(size_demo, "a.txt", "d.txt", "e.txt", incount, compcount, outcount);	// Читать из d e
+				combine(size_demo, "a.txt", "d.txt", "e.txt", incount, compcount, outcount);	// Г—ГЁГІГ ГІГј ГЁГ§ d e
 			printStr("a.txt", row, dataGridView3);
 			
 
 		}
 
-		// Cортировка Шелла с замером характеристик
+		// CГ®Г°ГІГЁГ°Г®ГўГЄГ  ГГҐГ«Г«Г  Г± Г§Г Г¬ГҐГ°Г®Г¬ ГµГ Г°Г ГЄГІГҐГ°ГЁГ±ГІГЁГЄ
 		void shell(int* num, int size, int& comparisons) {
-			//int increment = log2(size) - 1;			// начальное приращение сортировки
+			//int increment = log2(size) - 1;			// Г­Г Г·Г Г«ГјГ­Г®ГҐ ГЇГ°ГЁГ°Г Г№ГҐГ­ГЁГҐ Г±Г®Г°ГІГЁГ°Г®ГўГЄГЁ
 			int increment = size / 2;
-			while (increment > 0) {						// пока существует приращение
-				for (int i = 0; i < size; i++) {		// для всех элементов массива
-					int j = i;							// сохраняем индекс и элемент
+			while (increment > 0) {						// ГЇГ®ГЄГ  Г±ГіГ№ГҐГ±ГІГўГіГҐГІ ГЇГ°ГЁГ°Г Г№ГҐГ­ГЁГҐ
+				for (int i = 0; i < size; i++) {		// Г¤Г«Гї ГўГ±ГҐГµ ГЅГ«ГҐГ¬ГҐГ­ГІГ®Гў Г¬Г Г±Г±ГЁГўГ 
+					int j = i;							// Г±Г®ГµГ°Г Г­ГїГҐГ¬ ГЁГ­Г¤ГҐГЄГ± ГЁ ГЅГ«ГҐГ¬ГҐГ­ГІ
 					int temp = num[i];
-					// просматриваем остальные элементы массива, отстоящие от j-ого
-					// на величину приращения
+					// ГЇГ°Г®Г±Г¬Г ГІГ°ГЁГўГ ГҐГ¬ Г®Г±ГІГ Г«ГјГ­Г»ГҐ ГЅГ«ГҐГ¬ГҐГ­ГІГ» Г¬Г Г±Г±ГЁГўГ , Г®ГІГ±ГІГ®ГїГ№ГЁГҐ Г®ГІ j-Г®ГЈГ®
+					// Г­Г  ГўГҐГ«ГЁГ·ГЁГ­Гі ГЇГ°ГЁГ°Г Г№ГҐГ­ГЁГї
 					while ((j >= increment) && (num[j - increment] > temp)) {
-						// пока отстоящий элемент больше текущего
-						num[j] = num[j - increment];	// перемещаем его на текущую позицию
-						j = j - increment;				// переходим к следующему отстоящему элементу
+						// ГЇГ®ГЄГ  Г®ГІГ±ГІГ®ГїГ№ГЁГ© ГЅГ«ГҐГ¬ГҐГ­ГІ ГЎГ®Г«ГјГёГҐ ГІГҐГЄГіГ№ГҐГЈГ®
+						num[j] = num[j - increment];	// ГЇГҐГ°ГҐГ¬ГҐГ№Г ГҐГ¬ ГҐГЈГ® Г­Г  ГІГҐГЄГіГ№ГіГѕ ГЇГ®Г§ГЁГ¶ГЁГѕ
+						j = j - increment;				// ГЇГҐГ°ГҐГµГ®Г¤ГЁГ¬ ГЄ Г±Г«ГҐГ¤ГіГѕГ№ГҐГ¬Гі Г®ГІГ±ГІГ®ГїГ№ГҐГ¬Гі ГЅГ«ГҐГ¬ГҐГ­ГІГі
 						comparisons++;
 					}
-					num[j] = temp;						// на выявленное место помещаем сохранённый элемент
+					num[j] = temp;						// Г­Г  ГўГ»ГїГўГ«ГҐГ­Г­Г®ГҐ Г¬ГҐГ±ГІГ® ГЇГ®Г¬ГҐГ№Г ГҐГ¬ Г±Г®ГµГ°Г Г­ВёГ­Г­Г»Г© ГЅГ«ГҐГ¬ГҐГ­ГІ
 				}
-				increment = increment / 2;				// делим приращение на 2
+				increment = increment / 2;				// Г¤ГҐГ«ГЁГ¬ ГЇГ°ГЁГ°Г Г№ГҐГ­ГЁГҐ Г­Г  2
 			}
 		}
 };
